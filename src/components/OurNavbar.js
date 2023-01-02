@@ -1,8 +1,8 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import './styles/OurNavbar.css';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+import "./styles/OurNavbar.css";
 
 function OurNavbar() {
   return (
@@ -19,8 +19,8 @@ function OurNavbar() {
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="#our-work" className='light-text'>Our Work</Nav.Link>
-            <Nav.Link href="#about-us" className='light-text'>About Us</Nav.Link>
+            <Nav.Link href="#our-work" className="light-text">Our Work</Nav.Link>
+            <Nav.Link href="#about-us" className="light-text">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
