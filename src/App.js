@@ -11,7 +11,7 @@ function App() {
       <section className='landing'>
         <div className='center'>
           <p className='sub-title'>Welcome to Flex Consulting</p>
-          <h1 className='title-font'>Flexible solutions, exceptional quality</h1>
+          <h1 className='title-font'>Flexible solutions, exceptional quality.</h1>
         </div>
       </section>
       </Container>
