@@ -24,7 +24,7 @@ code {
 
 .title-font{
   font-size:250%;
-  background: -webkit-linear-gradient(#9AF0F5, #FFB46F);
+  background: -webkit-linear-gradient(#000000, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
