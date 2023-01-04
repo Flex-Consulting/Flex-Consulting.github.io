@@ -6,7 +6,7 @@ import "./styles/OurNavbar.css";
 
 function OurNavbar() {
   return (
-    <Navbar bg="dark">
+    <Navbar bg="dark" className="our-nav">
         <Container>
           <Navbar.Brand href="#home">
             <img

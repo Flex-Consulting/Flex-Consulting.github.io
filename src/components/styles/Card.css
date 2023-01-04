@@ -7,11 +7,12 @@
     width: 30%;
     padding: 2%;
     border: 1px solid black;
+    flex: 1 0 0px;
+    margin: 0.5%;
 }
 
 .service-name{
-    /* margin-top: 5%; */
-    color: #BEBEBE;
+    font-weight:200;
 }
 
 .service-desc{
@@ -21,18 +22,14 @@
 }
 
 .card-link{
-    color: #BEBEBE;
+    /* color: #BEBEBE; */
+    text-decoration: none;
     margin-bottom: 5%;
-}
-
-.section-header{
-    color: white;
-    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
     .card{
-      width: 50%;
+      width: 80%;
       margin-bottom: 5%
     }
   }

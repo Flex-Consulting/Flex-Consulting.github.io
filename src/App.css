@@ -12,6 +12,15 @@ body{
   align-self: center;
 }
 
+/* .animate__animated.animate__slideInUp {
+  --animate-delay: 10s;
+} */
+
+.section-header{
+  color: white;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
   #services-container{
     flex-direction: column !important;
@@ -26,6 +35,7 @@ body{
 #services{
   margin-top: 75%;
 }
+
 
 #footer{
   color: white;
