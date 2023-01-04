@@ -16,7 +16,7 @@ body{
 .our-nav{
   overflow: hidden;
   z-index: 1;
-  position: fixed;
+  position: fixed !important;
   top: 0;
   width: 100%;
 }

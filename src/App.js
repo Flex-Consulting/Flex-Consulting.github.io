@@ -18,6 +18,9 @@ import {
 
 function App() {
   const year = new Date().getFullYear();
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
   return (
     <Router>
       <div className="App">
