@@ -4,38 +4,22 @@ body{
   max-width: 100%;
 }
 
-#services-container{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  align-items:center;
-  align-self: center;
+.router-link{
+  text-decoration: none !important;
+  color: grey;
 }
 
-/* .animate__animated.animate__slideInUp {
-  --animate-delay: 10s;
-} */
-
-.section-header{
+.router-link:hover{
   color: white;
-  font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-  #services-container{
-    flex-direction: column !important;
-    
-  }
-  .section-header{
-    text-align: center !important;
-    margin-bottom: 10%;
-  }
+.our-nav{
+  overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-
-#services{
-  margin-top: 75%;
-}
-
 
 #footer{
   color: white;

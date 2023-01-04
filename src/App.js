@@ -1,59 +1,57 @@
 import "./App.css";
+import 'animate.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
-import OurNavbar from "./components/OurNavbar";
-import Card from "./components/Card";
-import Button from 'react-bootstrap/Button';
-import 'animate.css';
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Homepage from "./pages/Homepage";
+import OurWork from "./pages/OurWork";
+import About from "./pages/About";
 
-const ServiceInfo = {
-    "services": [
-        {"name": "Service", "brief-desc": "Premium Websites", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-        {"name": "Service", "brief-desc": "Tailored Software", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-        {"name": "Service", "brief-desc": "Custom Websites", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"}
-      ]
-};
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
-const ClientInfo = {
-  "services": [
-      {"name": "GBADs Informatics", "brief-desc": "“The dashboard's were exactly how I wanted them!”", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-      {"name": "Going Ductless Ltd.", "brief-desc": "“The website was perfect and delivered on time.”", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-    ]
-};
 
 function App() {
   const year = new Date().getFullYear();
   return (
-    <div className="App">
-      <OurNavbar/>
-      <Container>
-      <section id="landing">
-        <div className="center">
-          <p className="sub-title">Welcome to Flex Consulting</p>
-          <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
-          <Button variant="outline-light" className="animate__animated animate__fadeIn animate__delay-2s">Contact Us</Button>
-        </div>
-      </section>
-      <section id="services">
-        <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
-        <div id="services-container">
-          <Card color1="#171717" color2="#68005E" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
-          <Card color1="#171717" color2="#410068" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
-          <Card color1="#171717" color2="#210068" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
-        </div>
-      </section>
-      <section id="testimonials">
-        <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
-        <div id="services-container">
-          <Card color1="#F7931D" color2="#F1C40F" info={ClientInfo["services"][0]} nameLink="#000000"/>
-          <Card color1="#FFFFFF" color2="#87CEEB" info={ClientInfo["services"][1]} nameLink="#000000"/>
-        </div>
-      </section>
+    <Router>
+      <div className="App">
+        {/* <OurNavbar/> */}
+        <Navbar bg="dark" className="our-nav">
+        <Container>
+          <Navbar.Brand href="#home"><Link to='/'>
+            <img
+              src="./FlexLogo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            /></Link>
+          </Navbar.Brand>
+          <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#our-work" className="light-text"><Link to='/our-work' className="router-link">Our Work</Link></Nav.Link>
+            <Nav.Link href="#about-us" className="light-text"><Link to='/about' className="router-link">About Us</Link></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/our-work" element={<OurWork/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
+      </div>
       <section id="footer">
-        <h4>Flex Consulting © {year}</h4>
-      </section>
-      </Container>
-    </div>
+          <h4>Flex Consulting © {year}</h4>
+        </section>
+    </Router>
   );
 }
 

@@ -1,0 +1,11 @@
+{
+    "title": "First Blog",
+    "authour": "Matthew Szurkowski",
+    "occupation": "CEO & Co-Founder",
+    "sub-title": "Welcome to Flex Consulting",
+    "picture-link" : "https://mattszurkowski.com/assets/images/MyProfilePic.jpeg",
+    "content": [
+        {"paragraph": "Hey there"},
+        {"header": "Check it", "paragraph": "test test"}
+    ]
+}

@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/Card.css";
 
 function Card(props){
-    console.log(props);
     return(
         <div className="card" style={{background: `-webkit-linear-gradient(${props.color1}, ${props.color2})`}}>
             <p className="service-name" style={{color: `${props.nameLink}`}}>{props.info["name"]}</p>
