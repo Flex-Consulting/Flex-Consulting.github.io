@@ -7,6 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Homepage from "./pages/Homepage";
 import OurWork from "./pages/OurWork";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 import {
   BrowserRouter as Router,
@@ -38,8 +39,9 @@ function App() {
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="#our-work" className="light-text"><Link to='/our-work' className="router-link">Our Work</Link></Nav.Link>
-            <Nav.Link href="#about-us" className="light-text"><Link to='/about' className="router-link">About Us</Link></Nav.Link>
+            <Nav.Link as={Link} to="/our-work" className="router-link">Our Work</Nav.Link>
+            <Nav.Link as={Link} to="/about" className="router-link">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/blog" className="router-link">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
@@ -49,6 +51,7 @@ function App() {
         <Route path="/" element={<Homepage/>}/>
         <Route path="/our-work" element={<OurWork/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/blog" element={<Blog/>}/>
       </Routes>
       </div>
       <section id="footer">

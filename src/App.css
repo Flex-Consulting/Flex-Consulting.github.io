@@ -6,11 +6,13 @@ body{
 
 .router-link{
   text-decoration: none !important;
-  color: grey;
+  color: grey !important;
+  text-align: center;
+  z-index: 1;
 }
 
 .router-link:hover{
-  color: white;
+  color: white !important;
 }
 
 .our-nav{

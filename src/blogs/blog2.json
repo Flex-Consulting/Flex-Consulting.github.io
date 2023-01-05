@@ -6,7 +6,7 @@
     "date": "Jan 4th, 2023",
     "picture-link" : "https://mattszurkowski.com/assets/images/MyProfilePic.jpeg",
     "content": [
-        {"paragraph": "Hey there"},
+        {"paragraph": "Hey there again"},
         {"header": "Check it", "paragraph": "test test"}
     ]
 }

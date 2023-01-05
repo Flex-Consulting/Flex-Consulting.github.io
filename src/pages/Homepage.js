@@ -9,7 +9,7 @@ const ServiceInfo = {
     "services": [
         {"name": "Service", "brief-desc": "Premium Websites", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
         {"name": "Service", "brief-desc": "Tailored Software", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-        {"name": "Service", "brief-desc": "Custom Websites", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"}
+        {"name": "Service", "brief-desc": "Cloud Migration", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"}
       ]
 };
 
@@ -25,9 +25,9 @@ function Homepage(){
         <Container>
         <section id="landing">
           <div className="center">
-            <p className="sub-title">Welcome to Flex Consulting</p>
+            <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting</p>
             <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
-            <Button variant="outline-light" className="animate__animated animate__fadeIn animate__delay-2s">Contact Us</Button>
+            <Button variant="outline-light" className="animate__animated animate__fadeIn animate__delay-3s">Contact Us</Button>
           </div>
         </section>
         <section id="services">

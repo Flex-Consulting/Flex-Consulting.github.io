@@ -4,10 +4,10 @@ function OurWork(){
         <Container>
             <section>
                 <div className="center">
-                    <h1 className="landing-title">Our Work</h1>
+                    <h1 className="landing-title animate__animated animate__fadeInUp">Our Work</h1>
                 </div>
             </section>
-            <div style={{marginTop:"50%"}}>Test</div>
+            <div style={{marginTop:"100%", color:"black"}}>Test</div>
         </Container>
     );
 }

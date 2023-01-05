@@ -4,10 +4,10 @@ function About(){
         <Container>
             <section>
                 <div className="center">
-                    <h1 className="landing-title">About Us</h1>
+                    <h1 className="landing-title animate__animated animate__fadeInUp">About Us</h1>
                 </div>
             </section>
-            <div style={{marginTop:"50%"}}>Test</div>
+            <div style={{marginTop:"100%", color:"black"}}>Test</div>
         </Container>
     );
 }
