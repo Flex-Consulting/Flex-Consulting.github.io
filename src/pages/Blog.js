@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import BlogCard from "../components/BlogCard";
+// import BlogCard from "../components/BlogCard";
 
 function Blog(){
     var json = [];
