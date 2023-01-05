@@ -10,7 +10,6 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   Link
@@ -23,7 +22,6 @@ function App() {
     window.scrollTo(0, 0);
   }
   return (
-    <Router>
       <div className="App">
         {/* <OurNavbar/> */}
         <Navbar bg="dark" className="our-nav">
@@ -53,11 +51,10 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog/>}/>
       </Routes>
-      </div>
       <section id="footer">
           <h4>Flex Consulting © {year}</h4>
         </section>
-    </Router>
+      </div>
   );
 }
 
