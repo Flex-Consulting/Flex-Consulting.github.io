@@ -30,16 +30,25 @@ code {
 
 .landing-title{
   font-size:350%;
-  background: -webkit-linear-gradient(#FFFFFF, #3d3d3d);
+  /* mix-blend-mode:difference; */
+  /* background: -webkit-linear-gradient(#5edf6d, #000000);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:transparent;  */
   font-weight: bold;
 }
 
 .sub-title{
   color: grey;
+  mix-blend-mode: difference;
 }
 
 #landing Button{
   margin-top: 5%;
+}
+
+body{
+  background-image: url('../public/bng.jpeg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-position-y:-30vh;
 }

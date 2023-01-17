@@ -27,9 +27,28 @@
   }
   
   #services{
-    margin-top: 75%;
+    margin-top: 40%;
   }
   
   #testimonials{
     margin-top: 5%;
+  }
+
+  .apple_button{
+    background-image: linear-gradient(107deg, #0719F7, #064CD6, #1396ED, #06BAD6, #07F7D7);
+  }
+
+  .apple_button:hover{
+    background-image:none;
+    background-color: white;
+    color: black;
+  }
+
+  .apple_button:hover #contact{
+    color: black;
+  }
+
+  #contact{
+    color: white;
+    text-decoration: none;
   }

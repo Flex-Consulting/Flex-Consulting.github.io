@@ -7,7 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Homepage from "./pages/Homepage";
 import OurWork from "./pages/OurWork";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Footer from "./components/Footer";
+import Services from "./pages/Sevices";
 
 import {
   Routes,
@@ -17,16 +18,12 @@ import {
 
 
 function App() {
-  const year = new Date().getFullYear();
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  }
   return (
       <div className="App">
         {/* <OurNavbar/> */}
         <Navbar bg="dark" className="our-nav">
         <Container>
-          <Navbar.Brand href="#home"><Link to='/'>
+          <Navbar.Brand><Link to='/'>
             <img
               src="./FlexLogo.png"
               width="30"
@@ -37,9 +34,9 @@ function App() {
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
           <Nav>
+            <Nav.Link as={Link} to="/services" className="router-link">Services</Nav.Link>
             <Nav.Link as={Link} to="/our-work" className="router-link">Our Work</Nav.Link>
             <Nav.Link as={Link} to="/about" className="router-link">About Us</Nav.Link>
-            <Nav.Link as={Link} to="/blog" className="router-link">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
@@ -47,14 +44,14 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Homepage/>}/>
+        <Route path="/services" element={<Services/>}/>
         <Route path="/our-work" element={<OurWork/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/blog" element={<Blog/>}/>
       </Routes>
       <section id="footer">
-          <h4>Flex Consulting © {year}</h4>
-        </section>
-      </div>
+          <Footer/>
+      </section>
+    </div>
   );
 }
 

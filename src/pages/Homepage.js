@@ -4,6 +4,9 @@ import Container from "react-bootstrap/Container";
 // import OurNavbar from "./components/OurNavbar";
 import Card from "../components/Card";
 import Button from 'react-bootstrap/Button';
+import {
+  Link
+} from "react-router-dom";
 
 const ServiceInfo = {
     "services": [
@@ -25,9 +28,9 @@ function Homepage(){
         <Container>
         <section id="landing">
           <div className="center">
-            <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting</p>
+            <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
             <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
-            <Button variant="outline-light" className="animate__animated animate__fadeIn animate__delay-3s">Contact Us</Button>
+            <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><Link id="contact"to='/about'>Contact Us</Link></Button>
           </div>
         </section>
         <section id="services">
