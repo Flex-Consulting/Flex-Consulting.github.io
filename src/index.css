@@ -40,6 +40,7 @@ code {
 .sub-title{
   color: grey;
   mix-blend-mode: difference;
+  font-size: 150%;
 }
 
 #landing Button{
@@ -47,8 +48,8 @@ code {
 }
 
 body{
-  background-image: url('../public/bng.jpeg');
+  background-image: url('../public/newbg.jpeg');
   background-repeat: no-repeat;
   background-position:center;
-  background-position-y:-30vh;
+  background-position-y:-15rem;
 }

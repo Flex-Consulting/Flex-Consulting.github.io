@@ -1,6 +1,7 @@
 #main-footer{
     background-color: #171717;
     padding: 2%;
+    padding-bottom: 5%;
     display: flex;
     align-self: center;
     align-items: center;
@@ -12,6 +13,14 @@
     flex-direction: column;
 }
 
+.image-space{
+    margin-right: 5%;
+}
+
+.footer-text-items{
+    margin: -2%;
+}
+
 .footer-sec{
     display: flex;
     flex-direction: row;
@@ -19,8 +28,11 @@
 }
 
 .footer-sub{
+    /* border: 1px solid red; */
+    height: 20vh;
     text-align: left;
 }
+
 
 /* Un-comment to see borders */
 
