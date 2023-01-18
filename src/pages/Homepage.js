@@ -10,16 +10,16 @@ import {
 
 const ServiceInfo = {
     "services": [
-        {"name": "Service", "brief-desc": "Premium Websites", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-        {"name": "Service", "brief-desc": "Tailored Software", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-        {"name": "Service", "brief-desc": "Cloud Migration", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"}
+        {"name": "Service", "brief-desc": "Premium Websites", "link-text": "Click here to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
+        {"name": "Service", "brief-desc": "Tailored Software", "link-text": "Click here to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
+        {"name": "Service", "brief-desc": "Cloud Migration", "link-text": "Click here to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"}
       ]
 };
 
 const ClientInfo = {
   "services": [
-      {"name": "GBADs Informatics", "brief-desc": "“The dashboard's were exactly how I wanted them!”", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
-      {"name": "Going Ductless Ltd.", "brief-desc": "“The website was perfect and delivered on time.”", "link-text": "Click to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
+      {"name": "GBADs Informatics", "brief-desc": "“The dashboard's were exactly how I wanted them!”", "link-text": "Click here to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
+      {"name": "Going Ductless Ltd.", "brief-desc": "“The website was perfect and delivered on time.”", "link-text": "Click here to see more", "link-dest": "https://i.insider.com/602ee9d81a89f20019a377c6?width=1136&format=jpeg"},
     ]
 };
 

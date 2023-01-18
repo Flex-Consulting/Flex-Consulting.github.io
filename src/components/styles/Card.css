@@ -23,8 +23,12 @@
 
 .card-link{
     /* color: #BEBEBE; */
-    text-decoration: none;
+    text-decoration: underline;
     margin-bottom: 5%;
+}
+
+.card-link:hover{
+    color: white !important;
 }
 
 @media only screen and (max-width: 600px) {
