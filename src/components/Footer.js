@@ -10,18 +10,18 @@ const Pages = {
 
 function Footer(){
     return(
-        <div id="main-footer">
+        <div className='container' id="main-footer">
             <div id="media">
                 <div className="footer-sec">
-                    <img src="./flex-footer.png" width="50" height="50" className="d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
+                    <img src="./flex-footer.png" className="flex-footer-logo d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
                     <div id="organize-name">
                         <p>Flex<br/>Consulting<br/>Services</p>
                     </div>
                 </div>
                 <div className='footer-sec'>
-                    <img src="./linkedin-icon-18-256.png" width="50" height="50" className="d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
+                    <img src="./linkedin-icon-18-256.png" className="linkedin-footer-logo d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
                     <div id="organize-name">
-                        <p>LinkedIn</p>
+                        <p className='linkedin-footer-text'>LinkedIn</p>
                     </div>
                 </div>
             </div>
