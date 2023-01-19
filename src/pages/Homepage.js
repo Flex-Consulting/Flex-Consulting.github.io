@@ -33,6 +33,10 @@ function Homepage(){
             <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><Link id="contact"to='/about'>Contact Us</Link></Button>
           </div>
         </section>
+        <div id="blob-container">
+          <img src={require('../static/blob2.png')} className="blob"></img>
+          <img src={require('../static/try.png')} className="blob"></img>
+        </div>
         <section id="services">
           <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
           <div id="services-container">

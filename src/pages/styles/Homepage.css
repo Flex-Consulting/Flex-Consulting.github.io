@@ -24,11 +24,21 @@
       text-align: center !important;
       margin-bottom: 10%;
     }
+    .blob{
+      visibility: hidden;
+    }
+  }
+
+
+  #blob-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   #services{
     /* border: 1px solid green; */
-    margin-top: 40%;
+    margin-top: 10%;
     /* background-image: url('../../../public/blob2.png');
     background-repeat: no-repeat;
     overflow:visible;

@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px) {
+    #main-footer{
+        font-size: small;
+    }
+
+    #main-footer h4{
+        font-size:medium;
+    }
+}
+
 #main-footer{
     background-color: #171717;
     padding: 2%;
@@ -6,6 +16,10 @@
     align-self: center;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#main-footer h4{
+    font-weight:bold;
 }
 
 #media{
