@@ -27,32 +27,35 @@ const ClientInfo = {
 function Homepage(){
     return(
         <Container>
-        <section id="landing">
-          <div className="center">
-            <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
-            <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
-            <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><Link id="contact"to='/about'>Contact Us</Link></Button>
+          <section id="landing">
+            <div className="center">
+              <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
+              <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
+              <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><Link id="contact"to='/about'>Contact Us</Link></Button>
+            </div>
+          </section>
+          <div id="blob-container">
+            <img src={require('../static/pink2.png')} className="blob" alt="simple blob"></img>
+            <img src={require('../static/pink3.png')} className="blob" alt="another simple blob"></img>
           </div>
-        </section>
-        <div id="blob-container">
-          <img src={require('../static/pink2.png')} className="blob" alt="simple blob"></img>
-          <img src={require('../static/pink3.png')} className="blob" alt="another simple blob"></img>
-        </div>
-        <section id="services">
-          <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
-          <div id="services-container">
-            <Card color1="#171717" color2="#68005E" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
-            <Card color1="#171717" color2="#410068" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
-            <Card color1="#171717" color2="#210068" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
+          <section id="services">
+            <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
+            <div id="services-container">
+              <Card color1="#171717" color2="#68005E" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
+              <Card color1="#171717" color2="#410068" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
+              <Card color1="#171717" color2="#210068" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
+            </div>
+          </section>
+          <section id="testimonials">
+            <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
+            <div id="services-container">
+              <Card color1="#F7931D" color2="#F1C40F" info={ClientInfo["services"][0]} nameLink="#000000"/>
+              <Card color1="#FFFFFF" color2="#87CEEB" info={ClientInfo["services"][1]} nameLink="#000000"/>
+            </div>
+          </section>
+          <div className="landing-gradient">
           </div>
-        </section>
-        <section id="testimonials">
-          <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
-          <div id="services-container">
-            <Card color1="#F7931D" color2="#F1C40F" info={ClientInfo["services"][0]} nameLink="#000000"/>
-            <Card color1="#FFFFFF" color2="#87CEEB" info={ClientInfo["services"][1]} nameLink="#000000"/>
-          </div>
-        </section>
+
         </Container>
     );
 }
