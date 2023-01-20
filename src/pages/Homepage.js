@@ -23,6 +23,21 @@ const ClientInfo = {
     ]
 };
 
+const ButtonMailto = ({ mailto, label }) => {
+  return (
+      <Link
+          id="contact"
+          to='/'
+          onClick={(e) => {
+              window.location.href = mailto;
+              e.preventDefault();
+          }}
+      >
+          {label}
+      </Link>
+  );
+};
+
 
 function Homepage(){
     return(
@@ -31,7 +46,7 @@ function Homepage(){
           <div className="center">
             <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
             <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s">exceptional quality.</h1>
-            <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><Link id="contact"to='/about'>Contact Us</Link></Button>
+            <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><ButtonMailto label="Contact Us" mailto="mailto:info@flexconsulting.ca"/></Button>
           </div>
         </section>
         <div id="blob-container">
