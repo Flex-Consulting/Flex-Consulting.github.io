@@ -37,6 +37,7 @@
     justify-content: space-between;
   }
   
+
   #services{
     /* border: 1px solid green; */
     margin-top: 10%;
@@ -78,4 +79,24 @@
   border: 1px solid red;
   position: fixed;
   top: 0;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-40px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.blob:nth-of-type(1){
+  animation: float 6s ease-in-out infinite;
+}
+
+.blob:nth-of-type(2){
+  animation: float 7.5s ease-in-out infinite;
 }
