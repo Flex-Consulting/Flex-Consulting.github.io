@@ -44,8 +44,7 @@ code {
 }
 
 .sub-title{
-  color: grey;
-  mix-blend-mode: difference;
+  color: black;
   font-size: 150%;
 }
 
@@ -53,8 +52,38 @@ code {
   margin-top: 5%;
 }
 
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-40px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes bigfloat {
+  0% {
+    transform: translatey(-10px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+.background-blob{
+  animation: bigfloat 9.87s ease-in-out infinite;
+  position: absolute;
+  top: -15rem;
+  z-index: -1;
+  width: 1024px;
+  left: calc(50% - 512px);
+}
 body{
-  background-image: url('../public/npink.png'),
+  background-image:
   radial-gradient(circle at 50% 20%, 
   hsl(280deg 10% 71%) 0%,
   hsl(231deg 10% 16%) 15%,
