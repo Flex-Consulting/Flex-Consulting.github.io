@@ -48,7 +48,8 @@ code {
 }
 
 body{
-  background-image: url('../public/newbg.jpeg');
+  background-image: url('../public/npink.png');
+  /* background-size: 61.1%; */
   background-repeat: no-repeat;
   background-position:center;
   background-position-y:-15rem;

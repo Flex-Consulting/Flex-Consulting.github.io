@@ -35,8 +35,8 @@ function Homepage(){
           </div>
         </section>
         <div id="blob-container">
-          <img src={require('../static/blob2.png')} className="blob" alt="simple blob"></img>
-          <img src={require('../static/try.png')} className="blob" alt="another simple blob"></img>
+          <img src={require('../static/pink2.png')} className="blob" alt="simple blob"></img>
+          <img src={require('../static/pink3.png')} className="blob" alt="another simple blob"></img>
         </div>
         <section id="services">
           <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
