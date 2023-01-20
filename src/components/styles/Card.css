@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    justify-content: left;
-    width: 30%;
+    justify-content: space-between;
+    aspect-ratio: 1.1;
     padding: 2%;
     border: 1px solid black;
     flex: 1 0 0px;
@@ -17,7 +17,7 @@
 
 .service-desc{
     color: white;
-    margin-top: 50%;
+    /* margin-top: 50%; */
     font-weight: bold;
 }
 
