@@ -21,7 +21,7 @@ function App() {
   return (
       <div className="App">
         {/* <OurNavbar/> */}
-        <Navbar bg="dark" className="our-nav">
+        <Navbar className="our-nav">
         <Container>
           <Navbar.Brand><Link to='/'>
             <img
