@@ -37,7 +37,10 @@ code {
   background-clip: text;
   -webkit-text-fill-color:transparent; 
   font-weight: bold;
+}
 
+#bottom-title{
+  padding-bottom: 5px;
 }
 
 .sub-title{
