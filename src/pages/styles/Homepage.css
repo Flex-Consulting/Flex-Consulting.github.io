@@ -28,8 +28,11 @@
     .blob{
       visibility: hidden;
     }
+    .our-nav{
+      background-color: rgb(59, 59, 59) !important;
+      opacity: 1;
+    }
   }
-
 
   #blob-container{
     display: flex;
