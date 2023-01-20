@@ -18,10 +18,10 @@ body{
 .our-nav{
   overflow: hidden;
   z-index: 1;
-  position: fixed !important;
+  position: absolute !important;
   top: 0;
   width: 100%;
-  opacity: 95%;
+  background-color: transparent;
 }
 
 #footer{
