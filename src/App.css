@@ -4,6 +4,14 @@ body{
   max-width: 100%;
 }
 
+#root{
+  position: relative;
+}
+
+html{
+  overflow-x: clip;
+}
+
 .router-link{
   text-decoration: none !important;
   color: grey !important;
@@ -18,7 +26,7 @@ body{
 .our-nav{
   overflow: hidden;
   z-index: 1;
-  position: absolute !important;
+  /* position: absolute !important; */
   top: 0;
   width: 100%;
   background-color: transparent;
