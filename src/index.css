@@ -30,9 +30,7 @@ code {
 
 .landing-title{
   font-size:350%;
-  /* mix-blend-mode:difference; */
-  /* background: -webkit-linear-gradient(#5edf6d, #000000); */
-  background: -webkit-linear-gradient(16deg, #5c4e60, #5a577f, #A33E7E, #B34074, #0D0D0D);
+  background: -webkit-linear-gradient(261deg, #5c4e60, #0D0D0D);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color:transparent; 
@@ -46,10 +44,11 @@ code {
 .sub-title{
   color: black;
   font-size: 150%;
+  font-weight: 500;
 }
 
 #landing Button{
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 @keyframes float {
@@ -75,12 +74,12 @@ code {
   }
 }
 .background-blob{
-  animation: bigfloat 9.87s ease-in-out infinite;
+  animation: bigfloat 8.37s ease-in-out infinite;
   position: absolute;
   top: -15rem;
   z-index: -1;
   width: 1024px;
-  left: calc(50% - 512px);
+  left: calc(50% - 530px);
 }
 body{
   background-image:

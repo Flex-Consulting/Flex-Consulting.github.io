@@ -36,6 +36,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  @media only screen and (max-width: 1199.5px){
+    #blob-container{
+      justify-content: center;
+    }
+  }
   
 
   #services{
@@ -53,7 +58,7 @@
   }
 
   .apple_button{
-    background-color: black;
+    background: -webkit-linear-gradient(180deg, #5c4e60, #0D0D0D);
     border: 2px solid black;
   }
 

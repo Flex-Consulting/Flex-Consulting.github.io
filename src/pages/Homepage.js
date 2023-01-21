@@ -45,7 +45,7 @@ function Homepage(){
           <section id="landing">
             <div className="center">
               <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
-              <h1 className="landing-title animate__animated animate__slideInDown">Flexible solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s" id="bottom-title">exceptional quality.</h1>
+              <h1 className="landing-title animate__animated animate__slideInDown">Flexible Solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s" id="bottom-title">Exceptional Quality.</h1>
               <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><ButtonMailto label="Contact Us" mailto="mailto:info@flexconsulting.ca"/></Button>
             </div>
           </section>
