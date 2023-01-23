@@ -1,0 +1,6 @@
+.about-card{
+    background: -webkit-linear-gradient(-45deg, white, #f8b9f1);
+    width: 100%;
+    border-radius: 25px;
+    padding: 5%;
+}

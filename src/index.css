@@ -24,7 +24,10 @@ code {
 
 @media only screen and (max-width: 500px) {
   .landing-title{
-    font-size: 200% !important;
+    font-size: 300% !important;
+  }
+  .background-blob{
+    top: -16rem !important;
   }
 }
 
@@ -76,7 +79,7 @@ code {
 .background-blob{
   animation: bigfloat 8.37s ease-in-out infinite;
   position: absolute;
-  top: -15rem;
+  top: -9rem;
   z-index: -1;
   width: 1024px;
   left: calc(50% - 530px);

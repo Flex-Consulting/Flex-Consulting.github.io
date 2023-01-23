@@ -1,0 +1,24 @@
+@media only screen and (max-width: 500px) {
+    .about-sec{
+      flex-direction: column !important;
+      font-size: larger;
+    }
+    .rev{
+        flex-direction: column-reverse !important;
+    }
+  }
+
+.about-header{
+    color: white;
+    font-size:350%;
+    font-weight: 800;
+}
+
+.about-sec{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
