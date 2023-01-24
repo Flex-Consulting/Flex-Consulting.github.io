@@ -6,6 +6,9 @@
     .rev{
         flex-direction: column-reverse !important;
     }
+    #video-ad-container{
+        width: 100% !important;
+    }
   }
 
 .about-header{
@@ -22,3 +25,27 @@
     align-items: center;
     align-self: center;
 }
+
+
+#video-ad-container{
+    margin-top: 15%;
+    border: 15px solid white;
+    /* height: 20vh;
+    width: 100%; */
+    background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #DFFDFF 100%);
+    border-radius: 25px;    
+    /* width: 100%;
+    height: 100%; */
+}
+
+/* #our-ad{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: fill;
+} */
+
+/* video{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+} */

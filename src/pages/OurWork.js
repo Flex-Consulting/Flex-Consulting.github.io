@@ -15,9 +15,11 @@ function OurWork(){
             <section>
                 <div className="center" style={{marginBottom: `-100%`}}>
                     <h1 className="landing-title animate__animated animate__fadeInUp">Our Work</h1>
-                    <WorkCard header={WorkInfo["work"][0].header} subhead={WorkInfo["work"][0].subhead} desc={WorkInfo["work"][0].desc} LorR={WorkInfo["work"][0].LorR} img={WorkInfo["work"][0].img} ops={WorkInfo["work"][0].ops}/>
-                    <WorkCard header={WorkInfo["work"][1].header} subhead={WorkInfo["work"][1].subhead} desc={WorkInfo["work"][1].desc} LorR={WorkInfo["work"][1].LorR} img={WorkInfo["work"][1].img} ops={WorkInfo["work"][1].ops}/>
-                    <WorkCard header={WorkInfo["work"][2].header} subhead={WorkInfo["work"][2].subhead} desc={WorkInfo["work"][2].desc} LorR={WorkInfo["work"][2].LorR} img={WorkInfo["work"][2].img} ops={WorkInfo["work"][2].ops}/>
+                    <div style={{marginTop: `15%`, width: `100%`}}>
+                        <WorkCard header={WorkInfo["work"][0].header} subhead={WorkInfo["work"][0].subhead} desc={WorkInfo["work"][0].desc} LorR={WorkInfo["work"][0].LorR} img={WorkInfo["work"][0].img} ops={WorkInfo["work"][0].ops}/>
+                        <WorkCard header={WorkInfo["work"][1].header} subhead={WorkInfo["work"][1].subhead} desc={WorkInfo["work"][1].desc} LorR={WorkInfo["work"][1].LorR} img={WorkInfo["work"][1].img} ops={WorkInfo["work"][1].ops}/>
+                        <WorkCard header={WorkInfo["work"][2].header} subhead={WorkInfo["work"][2].subhead} desc={WorkInfo["work"][2].desc} LorR={WorkInfo["work"][2].LorR} img={WorkInfo["work"][2].img} ops={WorkInfo["work"][2].ops}/>
+                    </div>
                 </div>
             </section>
             <div style={{marginTop:"100%", color:"black"}}>Test</div>
