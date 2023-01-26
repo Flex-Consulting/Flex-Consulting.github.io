@@ -20,7 +20,7 @@ function Footer(){
                 <a className='footer-sec footer-link' href="https://www.linkedin.com/company/flex-consulting-services" target="_blank" rel="noreferrer">
                     <img src="./linkedin-icon-18-256.png" className="linkedin-footer-logo d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
                     <div id="organize-name">
-                        <a className='linkedin-footer-text'>LinkedIn</a>
+                        <p className='linkedin-footer-text'>LinkedIn</p>
                     </div>
                 </a>
             </div>

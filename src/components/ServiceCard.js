@@ -10,7 +10,7 @@ function WorkCard(props){
                     <h3 className="service-desc-serv-card">{props.desc}</h3>
                 </div>
                 <div>
-                    <img src={props.img} className={`service-card-image ${props.opt}`}></img>
+                    <img src={props.img} className={`service-card-image ${props.opt}`} alt={props.service}></img>
                 </div>
             </div>
         </div>
