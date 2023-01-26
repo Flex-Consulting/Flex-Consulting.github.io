@@ -8,7 +8,7 @@ import Homepage from "./pages/Homepage";
 import OurWork from "./pages/OurWork";
 import About from "./pages/About";
 import Footer from "./components/Footer";
-import Services from "./pages/Sevices";
+import Services from "./pages/Services";
 
 import {
   Routes,
