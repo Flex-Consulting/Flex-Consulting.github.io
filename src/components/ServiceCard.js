@@ -7,7 +7,10 @@ function WorkCard(props){
                 <div className="service-card-text">
                     <h4 className="service-tag">Service</h4>
                     <h2 className="service-title">{props.service}</h2>
-                    <h3 className="service-desc">{props.desc}</h3>
+                    <h3 className="service-desc-serv-card">{props.desc}</h3>
+                </div>
+                <div>
+                    <img src={props.img} className={`service-card-image ${props.opt}`}></img>
                 </div>
             </div>
         </div>

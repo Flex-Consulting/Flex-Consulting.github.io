@@ -9,6 +9,7 @@
     width: 100%;
     height:500px;
     border-radius: 25px;
+    display: flex;
 }
 
 .service-card-text{
@@ -35,6 +36,11 @@
     text-align: left;
 }
 .service-desc{
+    color: white;
+    font-weight: 800;
+}
+
+.service-desc-serv-card{
     color: #BEBEBE;
     font-size: x-large;
     font-weight: 800;
@@ -57,4 +63,26 @@
     background: -webkit-radial-gradient(circle at 90% 10%, rgba(255, 246, 41, 0.89) 0%, rgba(255, 246, 41, 0.11) 29%, rgba(255, 246, 41, 0.01) 37%),-webkit-linear-gradient(90deg, #171717 0%, #333333 100%);
     background: radial-gradient(circle at 90% 10%, rgba(255, 246, 41, 0.89) 0%, rgba(255, 246, 41, 0.11) 29%, rgba(255, 246, 41, 0.01) 37%),linear-gradient(90deg, #171717 0%, #333333 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171717",endColorstr="#333333",GradientType=1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .service-card-image{
+        visibility: hidden;
+    }
+}
+
+.service-card-image{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 40%;
+    /* position:absolute; */
+    /* margin-top: 0%;
+    margin-left: 65%; */
+}
+
+.globe{
+    margin-top: 30%;
+    margin-left: 80%;
+    /* margin-left: 69%;
+    width: 80%; */
 }

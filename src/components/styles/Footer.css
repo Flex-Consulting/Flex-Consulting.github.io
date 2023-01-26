@@ -40,6 +40,8 @@
 }
 .footer-text-items{
     margin: -2%;
+    text-decoration: none !important;
+    color: white;
 }
 
 .footer-sec{
@@ -53,16 +55,30 @@
     text-decoration: none;
 }
 
-.footer-link:hover{
-    color: grey;
-    text-decoration: underline;
-}
-
 .footer-sub{
     /* border: 1px solid red; */
     height: 12rem;
     text-align: left;
 }
+.page-a-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
 
 
 /* Un-comment to see borders */
