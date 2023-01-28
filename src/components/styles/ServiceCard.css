@@ -84,6 +84,26 @@
     .service-card-image{
         visibility: hidden;
     }
+    .service-title{
+        font-size: x-large;
+    }
+    .service-card-text{
+        width: 400% !important;
+    }
+    .service-modal-button{
+        width: 120% !important;
+    }
+    .modal-container{
+        width: 150% !important;
+        padding-right: 8%;
+    }
+    .service-desc-serv-card{
+        font-size: large !important;
+    }
+}
+
+.modal-body-text{
+    font-size: small !important;
 }
 
 .service-card-image{

@@ -9,10 +9,11 @@ function ServiceCard(props){
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     var bodyText = props.modalBody;
+    var text_list = [];
     console.log(bodyText);
     bodyText.map(function(text, i){
-        bodyText[i] = text + '\n';
-        return 0;
+        text_list[i] = text + '\n\n';
+        return text_list;
     });
     return(
         <div className="service-card-container">
@@ -33,7 +34,7 @@ function ServiceCard(props){
                         <Modal.Header closeButton className="modal-header">
                         <Modal.Title>{props.modalTitle}</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>{ bodyText}</Modal.Body>
+                        <Modal.Body>{ text_list }</Modal.Body>
                         <Modal.Footer>
                         <Button variant="secondary" onClick={handleClose}>
                             Close
