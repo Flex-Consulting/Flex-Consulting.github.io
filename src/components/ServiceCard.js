@@ -9,6 +9,11 @@ function ServiceCard(props){
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     var bodyText = props.modalBody;
+    console.log(bodyText);
+    bodyText.map(function(text, i){
+        bodyText[i] = text + '\n';
+        return 0;
+    });
     return(
         <div className="service-card-container">
             <div className={`service-card background-${props.number}`}>
