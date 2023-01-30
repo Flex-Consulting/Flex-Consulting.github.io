@@ -80,6 +80,41 @@
     background-color: rgba(255, 246, 41, 0.11);
 }
 
+.background-4{
+    background: -moz-radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),-moz-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: -webkit-radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),-webkit-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),linear-gradient(90deg, #171717 0%, #333333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171717",endColorstr="#333333",GradientType=1);
+}
+
+.background-5{
+    background: -moz-radial-gradient(circle at 90% 10%, rgba(0, 194, 255, 0.89) 0%, rgba(0, 194, 255, 0.11) 29%, rgba(0, 194, 255, 0.01) 37%),-moz-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: -webkit-radial-gradient(circle at 90% 10%, rgba(0, 194, 255, 0.89) 0%, rgba(0, 194, 255, 0.11) 29%, rgba(0, 194, 255, 0.01) 37%),-webkit-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: radial-gradient(circle at 90% 10%, rgba(0, 194, 255, 0.89) 0%, rgba(0, 194, 255, 0.11) 29%, rgba(0, 194, 255, 0.01) 37%),linear-gradient(90deg, #171717 0%, #333333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171717",endColorstr="#333333",GradientType=1);
+}
+
+.background-6{
+    background: -moz-radial-gradient(circle at 90% 10%, rgba(255, 246, 41, 0.89) 0%, rgba(255, 246, 41, 0.11) 29%, rgba(255, 246, 41, 0.01) 37%),-moz-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: -webkit-radial-gradient(circle at 90% 10%, rgba(255, 246, 41, 0.89) 0%, rgba(255, 246, 41, 0.11) 29%, rgba(255, 246, 41, 0.01) 37%),-webkit-linear-gradient(90deg, #171717 0%, #333333 100%);
+    background: radial-gradient(circle at 90% 10%, rgba(255, 246, 41, 0.89) 0%, rgba(255, 246, 41, 0.11) 29%, rgba(255, 246, 41, 0.01) 37%),linear-gradient(90deg, #171717 0%, #333333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#171717",endColorstr="#333333",GradientType=1);
+}
+.background-6 .service-modal-button:hover {
+    border: 1px solid rgba(255, 246, 41, 0.89);
+    background-color: rgba(255, 246, 41, 0.11);
+}
+
+.background-5 .service-modal-button:hover {
+    border: 1px solid rgba(0, 194, 255, 0.89);
+    background-color: rgba(0, 194, 255, 0.11);
+}
+
+.background-4 .service-modal-button:hover {
+    border: 1px solid rgba(0, 255, 133, 0.89);
+    background-color: rgba(0, 255, 133, 0.11);
+}
+
 @media only screen and (max-width: 1000px) {
     .service-card-image{
         visibility: hidden;

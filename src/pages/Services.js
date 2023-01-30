@@ -68,7 +68,7 @@ const services = [
     },
     {
         "header": "Third Service",
-        "desc": "Bringing businesses into 2023 with company websites, or internal web portals. Or something by Mr.GPT",
+        "desc": "Bringing businesses into 2023 with company websites, or internal web portals.",
         "colour": "#FFFFFF",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',

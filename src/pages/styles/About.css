@@ -38,6 +38,12 @@
     height: 100%; */
 }
 
+@media only screen and (max-width: 600px) {
+    #our-ad{
+        width: 100% !important;
+    }
+  }
+
 /* #our-ad{
     width: 100% !important;
     height: 100% !important;
