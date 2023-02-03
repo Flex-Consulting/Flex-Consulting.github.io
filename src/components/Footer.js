@@ -28,7 +28,7 @@ function Footer(){
 
             <div className="footer-sub">
                 <h4>Locations</h4>
-                <div>
+                <div id="locations-container">
                     {Locations["locations"].map(function(object, i){
                         return <p className="footer-text-items" key={i}>{object}</p>;
                     })}
