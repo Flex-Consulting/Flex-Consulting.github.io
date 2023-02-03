@@ -56,16 +56,16 @@ function Homepage(){
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">
-              <Card color1="#171717" color2="#68005E" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
-              <Card color1="#171717" color2="#410068" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
-              <Card color1="#171717" color2="#210068" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
+              <Card image="https://i.imgur.com/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
+              <Card image="https://i.imgur.com/rkEgfF2.png" w="100%" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
+              <Card image="https://i.imgur.com/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
             </div>
           </section>
           <section id="testimonials">
             <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
             <div id="services-container">
-              <Card color1="#F7931D" color2="#F1C40F" info={ClientInfo["services"][0]} nameLink="#000000"/>
-              <Card color1="#FFFFFF" color2="#87CEEB" info={ClientInfo["services"][1]} nameLink="#000000"/>
+              <Card image="https://i.imgur.com/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="#000000"/>
+              <Card image="https://i.imgur.com/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="#000000"/>
             </div>
           </section>
         </Container>

@@ -3,7 +3,7 @@ import "./styles/Card.css";
 
 function Card(props){
     return(
-        <div className="card" style={{background: `-webkit-linear-gradient(${props.color1}, ${props.color2})`}}>
+        <div className="card" style={{backgroundImage: `url(${props.image})`, backgroundSize: `${props.w}`, backgroundRepeat: `no-repeat`}}>
             <p className="service-name" style={{color: `${props.nameLink}`}}>{props.info["name"]}</p>
             <div>
                 <h1 className="service-desc">{props.info["brief-desc"]}</h1>
