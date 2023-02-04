@@ -11,8 +11,11 @@ import {
 const ServiceInfo = {
     "services": [
         {"name": "Service", "brief-desc": "Premium Websites", "link-text": "Click here to see more", "link-dest": "/services"},
-        {"name": "Service", "brief-desc": "Tailored Software", "link-text": "Click here to see more", "link-dest": "/services"},
-        {"name": "Service", "brief-desc": "Cloud Migration", "link-text": "Click here to see more", "link-dest": "/services"}
+        {"name": "Service", "brief-desc": "Microservices", "link-text": "Click here to see more", "link-dest": "/services"},
+        {"name": "Service", "brief-desc": "Cloud Migration", "link-text": "Click here to see more", "link-dest": "/services"},
+        {"name": "Service", "brief-desc": "Automated Deployment", "link-text": "Click here to see more", "link-dest": "/services"},
+        {"name": "Service", "brief-desc": "Performance Optimization", "link-text": "Click here to see more", "link-dest": "/services"},
+        {"name": "Service", "brief-desc": "Business Automation", "link-text": "Click here to see more", "link-dest": "/services"}
       ]
 };
 
@@ -56,16 +59,20 @@ function Homepage(){
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">
-              <Card image="https://i.imgur.com/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="#BEBEBE"/>
-              <Card image="https://i.imgur.com/rkEgfF2.png" w="100%" info={ServiceInfo["services"][1]} nameLink="#BEBEBE"/>
-              <Card image="https://i.imgur.com/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="#BEBEBE"/>
+              <Card image="https://i.imgur.com/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="white" bgColor="dimgrey" blendMode="difference"/>
+              <Card image="https://i.imgur.com/nuhfZJl.jpg" info={ServiceInfo["services"][1]} nameLink="white" bgColor="lightSlateGrey" blendMode="darken"/>
+              <Card image="https://i.imgur.com/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="white"/>
+
+              <Card image="https://i.imgur.com/ozolK4X.png" w="100%" info={ServiceInfo["services"][3]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
+              <Card image="https://i.imgur.com/DGozEPB.png" w="100%" info={ServiceInfo["services"][4]} nameLink="white"/>
+              <Card image="https://i.imgur.com/pkeawyu.png" w="100%" info={ServiceInfo["services"][5]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
             </div>
           </section>
           <section id="testimonials">
             <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
             <div id="services-container">
-              <Card image="https://i.imgur.com/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="#000000"/>
-              <Card image="https://i.imgur.com/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="#000000"/>
+              <Card image="https://i.imgur.com/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="white" bgColor="darkgrey" blendMode="multiply"/>
+              <Card image="https://i.imgur.com/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="white" bgColor="darkgrey" blendMode="color-burn"/>
             </div>
           </section>
         </Container>

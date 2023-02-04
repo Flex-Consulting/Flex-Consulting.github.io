@@ -19,16 +19,18 @@
     color: white;
     /* margin-top: 50%; */
     font-weight: bold;
+    /* text-shadow:0 0 0 black, 0 0 0.1px transparent; */
 }
 
 .card-link{
     /* color: #BEBEBE; */
+    font-weight:500;
     text-decoration: underline;
     margin-bottom: 5%;
 }
 
 .card-link:hover{
-    color: white !important;
+    color:gold !important;
 }
 
 @media only screen and (max-width: 600px) {

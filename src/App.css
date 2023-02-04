@@ -2,6 +2,7 @@ body{
   background-color: black !important;
   overflow-x: hidden;
   max-width: 100%;
+  text-rendering:optimizeLegibility !important;
 }
 
 #root{
