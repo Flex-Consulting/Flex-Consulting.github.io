@@ -6,6 +6,7 @@ const services = [
         "header": "CI/CD - Continuous Integration and Continuous Delivery / Continuous Deployment",
         "desc": "CI/CD streamlines software development, allowing teams to quickly and efficiently build, test, and deploy code for faster, higher-quality products.",
         "colour": "#FFFFFF",
+        "bkImage": "https://cdn.pixabay.com/photo/2014/09/21/19/51/overhead-conveyor-455464_960_720.jpg",
         "img": "https://i.imgur.com/uvgF5ml.png",
         "optClasses": '',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
@@ -19,6 +20,7 @@ const services = [
         "header": "Automating Business Workflows", 
         "desc": "Automating business workflows eliminates manual labor and human error, allowing for faster and more efficient processes to improve overall productivity and customer satisfaction.",
         "colour": "#FFFFFF",
+        "bkImage": "https://cdn.pixabay.com/photo/2020/03/06/18/04/tech-4907759_960_720.jpg",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe' ,
         "modalTile": "Automating Business Workflows: A Vision of Efficiency and Productivity 🔧",
@@ -31,6 +33,7 @@ const services = [
         "header": "Microservices", 
         "desc": "Microservices break down monolithic systems into smaller, more manageable units for faster and more flexible development, deployment, and scalability.",
         "colour": "#FFFFFF",
+        "bkImage" : "https://cdn.pixabay.com/photo/2019/02/23/00/23/plexiglas-4014712_960_720.jpg",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',
         "modalTile": "The Benefits of Microservices in Software Development: A Jony Ive Approach 🧰",
@@ -44,6 +47,7 @@ const services = [
         "header": "Cloud Migration", 
         "desc": "Cloud migration allows for cost-effective, scalable and on-demand access to computing resources, enabling businesses to stay competitive and responsive to changing demands.",
         "colour": "#FFFFFF",
+        "bkImage": "https://i.imgur.com/n2l75B0.jpg",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
@@ -57,6 +61,7 @@ const services = [
         "header": "Website Development", 
         "desc": "Providing a seamless user experience and connecting businesses to their customers. Includes design, building, features, functionality, responsive design, e-commerce integration, SEO and ongoing maintenance and updates.",
         "colour": "#FFFFFF",
+        "bkImage": "https://cdn.pixabay.com/photo/2014/02/13/07/28/settings-265131_960_720.jpg",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
@@ -67,9 +72,10 @@ const services = [
         `That's what CI/CD does for software development. It's like having an assembly line for your code, so you can build, test, and deploy faster and with more confidence.`]
     },
     {
-        "header": "Third Service",
-        "desc": "Bringing businesses into 2023 with company websites, or internal web portals.",
+        "header": "Performance Optimization",
+        "desc": "Performance optimization is essential for delivering optimal software experiences and reducing costs. Our software consulting firm provides expert performance optimization services for web applications, mobile apps, and microservices. Our team uses best practices and the latest tools to help clients improve performance, reduce page load time, and optimize database queries.",
         "colour": "#FFFFFF",
+        "bkImage": "https://i.imgur.com/AvEd32K.jpg",
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
@@ -89,12 +95,12 @@ function Services(){
                     <h1 className="landing-title animate__animated animate__fadeInUp">Services</h1>
                     <div style={{marginTop: `15%`, width: `100%`}}>
                         {/* we can clean stuff like this up with a function */}
-                        <ServiceCard service={services[0].header} desc={services[0].desc} number={1} img={services[0].img} opt={services[0].optClasses} modalTitle={services[0].modalTile} modalBody={services[0].modalBody}/>
-                        <ServiceCard service={services[1].header} desc={services[1].desc} number={2} img={services[1].img} opt={services[1].optClasses} modalTitle={services[1].modalTile} modalBody={services[1].modalBody}/>
-                        <ServiceCard service={services[2].header} desc={services[2].desc} number={3} img={services[2].img} opt={services[2].optClasses} modalTitle={services[2].modalTile} modalBody={services[2].modalBody}/>
-                        <ServiceCard service={services[3].header} desc={services[3].desc} number={4} img={services[3].img} opt={services[3].optClasses} modalTitle={services[3].modalTile} modalBody={services[3].modalBody}/>
-                        <ServiceCard service={services[4].header} desc={services[4].desc} number={5} img={services[4].img} opt={services[4].optClasses} modalTitle={services[4].modalTile} modalBody={services[4].modalBody}/>
-                        <ServiceCard service={services[5].header} desc={services[5].desc} number={6} img={services[5].img} opt={services[5].optClasses} modalTitle={services[5].modalTile} modalBody={services[5].modalBody}/>
+                        <ServiceCard service={services[0].header} desc={services[0].desc} number={1} img={services[0].img} opt={services[0].optClasses} modalTitle={services[0].modalTile} modalBody={services[0].modalBody} bkImage={services[0].bkImage} imageColor="darkgoldenrod" bkSetting="multiply"/>
+                        <ServiceCard service={services[1].header} desc={services[1].desc} number={2} img={services[1].img} opt={services[1].optClasses} modalTitle={services[1].modalTile} modalBody={services[1].modalBody} bkImage={services[1].bkImage} imageColor="green" bkSetting="multiply"/>
+                        <ServiceCard service={services[2].header} desc={services[2].desc} number={3} img={services[2].img} opt={services[2].optClasses} modalTitle={services[2].modalTile} modalBody={services[2].modalBody} bkImage={services[2].bkImage} imageColor="darkcyan" bkSetting="multiply"/>
+                        <ServiceCard service={services[3].header} desc={services[3].desc} number={4} img={services[3].img} opt={services[3].optClasses} modalTitle={services[3].modalTile} modalBody={services[3].modalBody} bkImage={services[3].bkImage} imageColor="darkgray" bkSetting="multiply"/>
+                        <ServiceCard service={services[4].header} desc={services[4].desc} number={5} img={services[4].img} opt={services[4].optClasses} modalTitle={services[4].modalTile} modalBody={services[4].modalBody} bkImage={services[4].bkImage} imageColor="darkgray" bkSetting="multiply"/>
+                        <ServiceCard service={services[5].header} desc={services[5].desc} number={6} img={services[5].img} opt={services[5].optClasses} modalTitle={services[5].modalTile} modalBody={services[5].modalBody} bkImage={services[5].bkImage} imageColor= "deeppink" bkSetting="darken"/>
                     </div>
                 </div>
             </section>

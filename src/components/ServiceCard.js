@@ -17,7 +17,7 @@ function ServiceCard(props){
     });
     return(
         <div className="service-card-container">
-            <div className={`service-card background-${props.number}`}>
+            <div className={`service-card background-${props.number}`} style={{backgroundImage: `url(${props.bkImage})`, backgroundRepeat: "round", backgroundBlendMode: `${props.bkSetting}`, backgroundColor: `${props.imageColor}`}}>
                 <div className="service-card-text">
                     <h4 className="service-tag">Service</h4>
                     <h2 className="service-title">{props.service}</h2>
