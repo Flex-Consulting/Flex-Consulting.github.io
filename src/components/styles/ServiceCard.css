@@ -135,6 +135,13 @@
     .service-desc-serv-card{
         font-size:medium !important;
     }
+    .service-card{
+        background-repeat: initial !important;
+        /* background-blend-mode:overlay !important; */
+    }
+    .service-card .service-desc-serv-card{
+        color: rgb(205, 204, 204);
+    }
 }
 
 .modal-body-text{

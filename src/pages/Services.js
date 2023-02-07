@@ -10,11 +10,11 @@ const services = [
         "img": "https://i.imgur.com/uvgF5ml.png",
         "optClasses": '',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
-        "modalBody": [`Think about it like this: when you're building a new product, you don't want to wait until the end to test it and see if it works. That's a recipe for disaster. Instead, you want to test each piece as you go, making sure everything is working together seamlessly. 💫`,
-        `That's what CI/CD does for software development. It automatically checks your code for errors as soon as it's pushed, and then deploys it to a test environment where it can be further tested. This way, you catch any issues early on, before they have a chance to cause problems down the line. 🔍 `,
-        `And once your code is tested and proven to be working, the CD part comes in, it automatically deploys your code to production, so your customers can start using it right away. 💻`,
-        `Imagine a world where cars are built one at a time, and only tested once they're finished. It would take forever to build a single car, and when you finally got it on the road, you might find out it doesn't work right. But with an assembly line, each part is tested as it's built, and the final product is ready to roll off the line and hit the road. 🛣️🚗`,
-        `That's what CI/CD does for software development. It's like having an assembly line for your code, so you can build, test, and deploy faster and with more confidence. 🚀`]
+        "modalBody": [`Think about it like this: when you're building a new product, you don't want to wait until the end to test it and see if it works. That's a recipe for disaster. Instead, you want to test each piece as you go, making sure everything is working together seamlessly.`,
+        `That's what CI/CD does for software development. It automatically checks your code for errors as soon as it's pushed, and then deploys it to a test environment where it can be further tested. This way, you catch any issues early on, before they have a chance to cause problems down the line.`,
+        `And once your code is tested and proven to be working, the CD part comes in, it automatically deploys your code to production, so your customers can start using it right away.`,
+        `Imagine a world where cars are built one at a time, and only tested once they're finished. It would take forever to build a single car, and when you finally got it on the road, you might find out it doesn't work right. But with an assembly line, each part is tested as it's built, and the final product is ready to roll off the line and hit the road.`,
+        `That's what CI/CD does for software development. It's like having an assembly line for your code, so you can build, test, and deploy faster and with more confidence.`]
     },
     {
         "header": "Automating Business Workflows", 
@@ -24,10 +24,10 @@ const services = [
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe' ,
         "modalTile": "Automating Business Workflows: A Vision of Efficiency and Productivity 🔧",
-        "modalBody": [`Imagine a world where all the tedious, repetitive tasks in your business are handled seamlessly and efficiently by technology. This is the world of automating business workflows. 🤖`,
-        `With the power of artificial intelligence and machine learning, we can now automate everything from data entry and customer service, to invoicing and inventory management. This not only saves time and resources, but it also eliminates the risk of human error and improves the overall accuracy of your business operations. 📈`,
-        `Think of it as having a team of virtual assistants working around the clock to take care of all the little things, so you and your team can focus on the big picture. It's like having your own personal Jarvis, working tirelessly to make your business run like a well-oiled machine. 💼`,
-        `By automating your business workflows, you'll be able to make better use of your time, resources and money, and ultimately, drive more revenue and growth for your business. It's a no-brainer for any company looking to stay competitive and reach new heights. 💰`]
+        "modalBody": [`Imagine a world where all the tedious, repetitive tasks in your business are handled seamlessly and efficiently by technology. This is the world of automating business workflows.`,
+        `With the power of artificial intelligence and machine learning, we can now automate everything from data entry and customer service, to invoicing and inventory management. This not only saves time and resources, but it also eliminates the risk of human error and improves the overall accuracy of your business operations.`,
+        `Think of it as having a team of virtual assistants working around the clock to take care of all the little things, so you and your team can focus on the big picture. It's like having your own personal Jarvis, working tirelessly to make your business run like a well-oiled machine.`,
+        `By automating your business workflows, you'll be able to make better use of your time, resources and money, and ultimately, drive more revenue and growth for your business. It's a no-brainer for any company looking to stay competitive and reach new heights.`]
     },
     {
         "header": "Microservices", 
@@ -37,11 +37,11 @@ const services = [
         "img": "https://i.imgur.com/8VzvkAC.png",
         "optClasses": 'globe',
         "modalTile": "The Benefits of Microservices in Software Development: A Jony Ive Approach 🧰",
-        "modalBody": [`When it comes to software development, Microservices approach is like building a collection of small, specialized machines, each with a specific task. These machines can work independently or together to create a cohesive, powerful system. 🧱`,
+        "modalBody": [`When it comes to software development, Microservices approach is like building a collection of small, specialized machines, each with a specific task. These machines can work independently or together to create a cohesive, powerful system.`,
                     `Think of having a team of experts, each responsible for a specific part of the product, working together to create a seamless experience. By breaking down a large, monolithic system into smaller, independent services, we can create a more flexible, scalable and maintainable product. 🤝`,
-                `It's like having your own personal Jony Ive, designing and building each component with precision and care, to create the perfect product for your customers. 🎨`,
-            `With Microservices, we can quickly and easily update, test and deploy new features, without disrupting the entire system. This allows for faster development and increased agility, giving your business a competitive edge in today's fast-paced digital world. 🚀`,
-        `In short, Microservices allows for a more efficient and effective way to build and maintain software, ultimately resulting in a better product and experience for your customers. ✨`]
+                `It's like having your own personal Jony Ive, designing and building each component with precision and care, to create the perfect product for your customers.`,
+            `With Microservices, we can quickly and easily update, test and deploy new features, without disrupting the entire system. This allows for faster development and increased agility, giving your business a competitive edge in today's fast-paced digital world.`,
+        `In short, Microservices allows for a more efficient and effective way to build and maintain software, ultimately resulting in a better product and experience for your customers.`]
     },
     {
         "header": "Cloud Migration", 
