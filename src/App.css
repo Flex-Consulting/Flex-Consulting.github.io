@@ -1,11 +1,12 @@
 body{
+  background-color: black;
   overflow-x: hidden;
   max-width: 100%;
   text-rendering:optimizeLegibility !important;
 }
 
 .dark{
-  background-color: black;
+  background-color: black !important;
 }
 
 .light{

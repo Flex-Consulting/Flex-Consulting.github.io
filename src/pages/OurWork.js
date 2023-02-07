@@ -21,6 +21,7 @@ function OurWork(){
                         <WorkCard header={WorkInfo["work"][2].header} subhead={WorkInfo["work"][2].subhead} desc={WorkInfo["work"][2].desc} LorR={WorkInfo["work"][2].LorR} img={WorkInfo["work"][2].img} ops={WorkInfo["work"][2].ops}/>
                     </div>
                 </div>
+                <div style={{marginTop:"100%", width:"50px", height:"20px"}}></div>
             </section>
         </Container>
     );
