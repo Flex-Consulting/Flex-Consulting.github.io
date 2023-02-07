@@ -1,8 +1,18 @@
 body{
-  background-color: black !important;
   overflow-x: hidden;
   max-width: 100%;
   text-rendering:optimizeLegibility !important;
+}
+
+.dark{
+  background-color: black;
+}
+
+.light{
+  background-color:currentColor !important;
+  background: -webkit-linear-gradient(pink, #9198e5);
+  background: -moz-linear-gradient(pink, #9198e5);
+  background: linear-gradient(pink, #9198e5);
 }
 
 #root{
@@ -13,9 +23,17 @@ html{
   overflow-x: clip;
 }
 
+.navbar-light .router-link{
+  color: black !important;
+}
+
+.navbar-dark .router-link{
+  color: grey !important;
+}
+
 .router-link{
   text-decoration: none !important;
-  color: grey !important;
+  color: grey;
   text-align: center;
   z-index: 1;
 }
@@ -42,3 +60,17 @@ html{
   bottom: 0 !important;
   width: 100%;
 }
+
+#darkModeButton{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+/* #darkModeButton:hover{
+  background-color: rgb(235, 237, 240);
+  border-radius: 20%;
+} */
