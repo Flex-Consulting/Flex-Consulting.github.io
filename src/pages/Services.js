@@ -104,7 +104,6 @@ function Services(){
                     </div>
                 </div>
             </section>
-            <div style={{marginTop:"100%", color:"black"}}>Test</div>
         </Container>
     );
 }
