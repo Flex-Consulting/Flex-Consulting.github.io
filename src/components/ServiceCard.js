@@ -1,13 +1,13 @@
 import "./styles/ServiceCard.css";
-import React, { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+// import React, { useState } from 'react';
+// import Modal from 'react-bootstrap/Modal';
+// import Button from 'react-bootstrap/Button';
 
 function ServiceCard(props){
-    const [show, setShow] = useState(false);
+    // const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
     var bodyText = props.modalBody;
     var text_list = [];
     console.log(bodyText);
@@ -41,23 +41,23 @@ function ServiceCard(props){
     );
 }
 
-{/* <div className="modal-container">
-    <Button variant="primary" onClick={handleShow} className="service-modal-button">
-        Read more
-    </Button>
-    <Modal show={show} onHide={handleClose} className="main-modal">
-        <Modal.Header closeButton className="modal-header">
-        <Modal.Title>{props.modalTitle}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>{ text_list }</Modal.Body>
-        <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-            Close
-        </Button>
-        // {/* <Button variant="primary" onClick={handleClose}>
-        //     Save Changes
-        // </Button> 
-        </Modal.Footer>
-    </Modal>
-</div> */}
+// {/* <div className="modal-container">
+//     <Button variant="primary" onClick={handleShow} className="service-modal-button">
+//         Read more
+//     </Button>
+//     <Modal show={show} onHide={handleClose} className="main-modal">
+//         <Modal.Header closeButton className="modal-header">
+//         <Modal.Title>{props.modalTitle}</Modal.Title>
+//         </Modal.Header>
+//         <Modal.Body>{ text_list }</Modal.Body>
+//         <Modal.Footer>
+//         <Button variant="secondary" onClick={handleClose}>
+//             Close
+//         </Button>
+//         // {/* <Button variant="primary" onClick={handleClose}>
+//         //     Save Changes
+//         // </Button> 
+//         </Modal.Footer>
+//     </Modal>
+// </div> */}
 export default ServiceCard;
