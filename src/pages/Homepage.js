@@ -59,20 +59,20 @@ function Homepage(){
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">
-              <Card image="https://i.imgur.com/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="white" bgColor="dimgrey" blendMode="difference"/>
-              <Card image="https://i.imgur.com/nuhfZJl.jpg" info={ServiceInfo["services"][1]} nameLink="white" bgColor="lightSlateGrey" blendMode="darken"/>
-              <Card image="https://i.imgur.com/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="white"/>
+              <Card image="./imgs/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="white" bgColor="dimgrey" blendMode="difference"/>
+              <Card image="./imgs/nuhfZJl.jpg" info={ServiceInfo["services"][1]} nameLink="white" bgColor="lightSlateGrey" blendMode="darken"/>
+              <Card image="./imgs/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="white"/>
 
-              <Card image="https://i.imgur.com/ozolK4X.png" w="100%" info={ServiceInfo["services"][3]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
-              <Card image="https://i.imgur.com/DGozEPB.png" w="100%" info={ServiceInfo["services"][4]} nameLink="white"/>
-              <Card image="https://i.imgur.com/pkeawyu.png" w="100%" info={ServiceInfo["services"][5]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
+              <Card image="./imgs/ozolK4X.png" w="100%" info={ServiceInfo["services"][3]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
+              <Card image="./imgs/DGozEPB.png" w="100%" info={ServiceInfo["services"][4]} nameLink="white"/>
+              <Card image="./imgs/pkeawyu.png" w="100%" info={ServiceInfo["services"][5]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
             </div>
           </section>
           <section id="testimonials">
             <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
             <div id="services-container">
-              <Card image="https://i.imgur.com/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="white" bgColor="darkgrey" blendMode="multiply"/>
-              <Card image="https://i.imgur.com/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="white" bgColor="darkgrey" blendMode="color-burn"/>
+              <Card image="./imgs/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="white" bgColor="darkgrey" blendMode="multiply"/>
+              <Card image="./imgs/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="white" bgColor="darkgrey" blendMode="color-burn"/>
             </div>
           </section>
         </Container>
