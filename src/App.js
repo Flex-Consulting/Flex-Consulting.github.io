@@ -75,9 +75,9 @@ function App() {
             {showButton(!toggle)}
             </button>
             </>
-            <Nav.Link as={Link} to="/services" className="router-link">Services</Nav.Link>
-            <Nav.Link as={Link} to="/our-work" className="router-link">Our Work</Nav.Link>
-            <Nav.Link as={Link} to="/about" className="router-link">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/services" className={`router-link router-link-${style}`}>Services</Nav.Link>
+            <Nav.Link as={Link} to="/our-work" className={`router-link router-link-${style}`}>Our Work</Nav.Link>
+            <Nav.Link as={Link} to="/about" className={`router-link router-link-${style}`}>About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>

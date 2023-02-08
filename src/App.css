@@ -27,9 +27,31 @@ html{
 .navbar-light .router-link{
   color: black !important;
 }
-
 .navbar-dark .router-link{
-  color: grey !important;
+  color: white !important;
+}
+.router-link-dark:hover{
+  color: lightgrey !important;
+}
+.router-link-light:hover{
+  color: rgb(84, 84, 84) !important;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-light .router-link{
+    color: white !important;
+  }
+  
+  .navbar-dark .router-link{
+    color: white !important;
+  }
+  
+  #darkModeButton{
+    color: white !important;
+  }
+  .router-link-dark:hover{
+    color: lightgrey !important;
+  }
+
 }
 
 .router-link{
@@ -39,9 +61,6 @@ html{
   z-index: 1;
 }
 
-.router-link:hover{
-  color: white !important;
-}
 
 .our-nav{
   overflow: hidden;
