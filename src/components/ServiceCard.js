@@ -10,7 +10,6 @@ function ServiceCard(props){
     // const handleShow = () => setShow(true);
     var bodyText = props.modalBody;
     var text_list = [];
-    console.log(bodyText);
     bodyText.map(function(text, i){
         text_list[i] = text + '\n\n';
         return text_list;
@@ -30,7 +29,7 @@ function ServiceCard(props){
             <div className={`service-card service-card-back`}>
                 <div className="service-card-text">
                     <h4 className="service-tag">Service</h4>
-                    <h2 className="service-title" style={{"font-size":"xx-large"}}>{props.modalTitle}</h2>
+                    <h2 className="service-title" style={{"fontSize":"xx-large"}}>{props.modalTitle}</h2>
                     <h3 className="service-desc-serv-card">{text_list}</h3>
                 </div>
                 <div>

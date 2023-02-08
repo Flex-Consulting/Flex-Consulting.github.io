@@ -1,7 +1,6 @@
 import "./styles/WorkCard.css";
 
 function WorkCard(props){
-    console.log(props.LorR);
     var header_pos = "";
     if (props.LorR === "work-left"){
         header_pos = "l-align";
