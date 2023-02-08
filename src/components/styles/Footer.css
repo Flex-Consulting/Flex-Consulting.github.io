@@ -6,6 +6,9 @@
     #main-footer h4{
         font-size:medium;
     }
+    .footer-mod-headers{
+        font-size: medium !important;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -116,7 +119,9 @@ a:hover{
     width: auto;
 } */
 
-
+.footer-mod-headers{
+    font-size: x-large;
+}
 
 #organize-name{
     display: flex;

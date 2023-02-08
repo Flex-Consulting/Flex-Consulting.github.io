@@ -27,7 +27,7 @@ function Footer(){
             {/* Locations */}
 
             <div className="footer-sub">
-                <h4>Locations</h4>
+                <h1 className='footer-mod-headers'>Locations</h1>
                 <div id="locations-container">
                     {Locations["locations"].map(function(object, i){
                         return <p className="footer-text-items" key={i}>{object}</p>;
@@ -35,7 +35,7 @@ function Footer(){
                 </div>
             </div>
             <div className="footer-sub">
-                <h4>Pages</h4>
+                <h1 className='footer-mod-headers'>Pages</h1>
                 <div className='page-a-tags'>
                     {Object.entries(Pages).map(function([key, value]){
                         counter = counter + 1;

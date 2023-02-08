@@ -70,6 +70,7 @@ function App() {
           <Nav>
             <>
             <button id="darkModeButton"
+            aria-label="Change site look"
             onClick={function(event){setToggle(!toggle); changeStyle();}}>
             {showButton(!toggle)}
             </button>
