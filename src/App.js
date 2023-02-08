@@ -59,7 +59,7 @@ function App() {
         <Container>
           <Navbar.Brand><Link to='/'>
             <img
-              src="./imgs/FlexLogo.png"
+              src="./imgs/FlexLogo.webp"
               width="30"
               height="30"
               className="d-inline-block align-top"

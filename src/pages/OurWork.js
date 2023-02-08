@@ -3,9 +3,9 @@ import WorkCard from "../components/WorkCard";
 
 const WorkInfo = {
     "work": [
-        {"header": "Global Burden of Animal Diseases", "subhead": "Website Solutions", "desc": "Web dashboards for visualizing research data", "LorR": "work-left", "img":"./imgs/E6rUPqZ.png", "ops": "inner-work-text"},
-        {"header": "Going Ductless Ltd.", "subhead": "Website Solutions", "desc": "Company website", "LorR": "work-right", "img": "./imgs/m8xctMx.png", "ops": "none"},
-        {"header": "TN Consulting", "subhead": "Software Solutions", "desc": "Automated content delivery through chat bots", "LorR": "work-left", "img": "./imgs/SxS77xt.png", "ops": "inner-work-text"}
+        {"header": "Global Burden of Animal Diseases", "subhead": "Website Solutions", "desc": "Web dashboards for visualizing research data", "LorR": "work-left", "img":"./imgs/E6rUPqZ.webp", "ops": "inner-work-text"},
+        {"header": "Going Ductless Ltd.", "subhead": "Website Solutions", "desc": "Company website", "LorR": "work-right", "img": "./imgs/m8xctMx.webp", "ops": "none"},
+        {"header": "TN Consulting", "subhead": "Software Solutions", "desc": "Automated content delivery through chat bots", "LorR": "work-left", "img": "./imgs/SxS77xt.webp", "ops": "inner-work-text"}
     ]
 };
 

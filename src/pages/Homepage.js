@@ -53,26 +53,26 @@ function Homepage(){
             </div>
           </section>
           <div id="blob-container">
-            <img src='./imgs/pink2.png' className="blob" alt="simple blob"></img>
-            <img src='./imgs/pink3.png' className="blob" alt="another simple blob"></img>
+            <img src='./imgs/pink2.webp' className="blob" alt="simple blob"></img>
+            <img src='./imgs/pink3.webp' className="blob" alt="another simple blob"></img>
           </div>
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">
-              <Card image="./imgs/Xu4dsHl.png" w="100%" info={ServiceInfo["services"][0]} nameLink="white" bgColor="dimgrey" blendMode="difference"/>
-              <Card image="./imgs/nuhfZJl.jpg" info={ServiceInfo["services"][1]} nameLink="white" bgColor="lightSlateGrey" blendMode="darken"/>
-              <Card image="./imgs/ydSoWd0.png" w="100%" info={ServiceInfo["services"][2]} nameLink="white"/>
+              <Card image="./imgs/Xu4dsHl.webp" w="100%" info={ServiceInfo["services"][0]} nameLink="white" bgColor="dimgrey" blendMode="difference"/>
+              <Card image="./imgs/nuhfZJl.webp" info={ServiceInfo["services"][1]} nameLink="white" bgColor="lightSlateGrey" blendMode="darken"/>
+              <Card image="./imgs/ydSoWd0.webp" w="100%" info={ServiceInfo["services"][2]} nameLink="white"/>
 
-              <Card image="./imgs/ozolK4X.png" w="100%" info={ServiceInfo["services"][3]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
-              <Card image="./imgs/DGozEPB.png" w="100%" info={ServiceInfo["services"][4]} nameLink="white"/>
-              <Card image="./imgs/pkeawyu.png" w="100%" info={ServiceInfo["services"][5]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
+              <Card image="./imgs/ozolK4X.webp" w="100%" info={ServiceInfo["services"][3]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
+              <Card image="./imgs/DGozEPB.webp" w="100%" info={ServiceInfo["services"][4]} nameLink="white"/>
+              <Card image="./imgs/pkeawyu.webp" w="100%" info={ServiceInfo["services"][5]} nameLink="white" bgColor="darkgray" blendMode="color-burn"/>
             </div>
           </section>
           <section id="testimonials">
             <h1 className="section-header" style={{textAlign: "right"}}>Testimonials</h1>
             <div id="services-container">
-              <Card image="./imgs/dgq4lrj.png" w="100%" info={ClientInfo["services"][0]} nameLink="white" bgColor="darkgrey" blendMode="multiply"/>
-              <Card image="./imgs/GGILEzg.png" w="100%"info={ClientInfo["services"][1]} nameLink="white" bgColor="darkgrey" blendMode="color-burn"/>
+              <Card image="./imgs/dgq4lrj.webp" w="100%" info={ClientInfo["services"][0]} nameLink="white" bgColor="darkgrey" blendMode="multiply"/>
+              <Card image="./imgs/GGILEzg.webp" w="100%"info={ClientInfo["services"][1]} nameLink="white" bgColor="darkgrey" blendMode="color-burn"/>
             </div>
           </section>
         </Container>

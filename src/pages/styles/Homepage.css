@@ -66,7 +66,7 @@
   #services{
     /* border: 1px solid green; */
     margin-top: 10%;
-    /* background-image: url('../../../public/imgs/blob2.png');
+    /* background-image: url('../../../public/imgs/blob2.webp');
     background-repeat: no-repeat;
     overflow:visible;
     background-position-y:center;
@@ -112,4 +112,9 @@
 
 .blob:nth-of-type(2){
   animation: float 7.5s ease-in-out infinite;
+}
+
+.blob{
+  width:500px;
+  height:500px;
 }
