@@ -1,15 +1,41 @@
 .service-card-container{
     /* border: 1px solid green; */
+    position: relative;
     width: 100%;
+    height: 500px;
     margin-top: 5%;
+    transform-style: preserve-3d;
+    perspective: 5000px; /* Remove this if you don't want the 3D effect */
 }
 
 .service-card{
+    overflow: hidden;
+    position: absolute;
     background: rgb(23,23,23);
     width: 100%;
     height:500px;
     border-radius: 25px;
     display: flex;
+    transition: transform 0.5s;
+}
+
+.service-card-front{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.service-card-back{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: rgb(23,23,23);
+}
+
+.service-card-container:hover .service-card-front{
+    transform: rotateY(180deg);
+}
+.service-card-container:hover .service-card-back{
+    transform: rotateY(360deg);
 }
 
 .service-card-text{
@@ -45,7 +71,6 @@
     font-size: x-large;
     font-weight: 800;
 }
-
 
 .background-1{
     background: -moz-radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),-moz-linear-gradient(90deg, #171717 0%, #333333 100%);

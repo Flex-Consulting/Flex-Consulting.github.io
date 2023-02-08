@@ -3,18 +3,14 @@ import ServiceCard from "../components/ServiceCard";
 
 const services = [
     {
-        "header": "CI/CD - Continuous Integration and Continuous Delivery / Continuous Deployment",
+        "header": "CI/CD - Continuous Integration and Continuous Delivery",
         "desc": "CI/CD streamlines software development, allowing teams to quickly and efficiently build, test, and deploy code for faster, higher-quality products.",
         "colour": "#FFFFFF",
         "bkImage": "https://cdn.pixabay.com/photo/2014/09/21/19/51/overhead-conveyor-455464_960_720.jpg",
         "img": "https://i.imgur.com/uvgF5ml.png",
         "optClasses": '',
         "modalTile": "Revolutionizing software development: the key to keeping ahead of the competition 💡",
-        "modalBody": [`Think about it like this: when you're building a new product, you don't want to wait until the end to test it and see if it works. That's a recipe for disaster. Instead, you want to test each piece as you go, making sure everything is working together seamlessly.`,
-        `That's what CI/CD does for software development. It automatically checks your code for errors as soon as it's pushed, and then deploys it to a test environment where it can be further tested. This way, you catch any issues early on, before they have a chance to cause problems down the line.`,
-        `And once your code is tested and proven to be working, the CD part comes in, it automatically deploys your code to production, so your customers can start using it right away.`,
-        `Imagine a world where cars are built one at a time, and only tested once they're finished. It would take forever to build a single car, and when you finally got it on the road, you might find out it doesn't work right. But with an assembly line, each part is tested as it's built, and the final product is ready to roll off the line and hit the road.`,
-        `That's what CI/CD does for software development. It's like having an assembly line for your code, so you can build, test, and deploy faster and with more confidence.`]
+        "modalBody": [`CI/CD streamlines software development by automatically checking code for errors and deploying it to a test environment for further testing. This helps catch any issues early, ensuring a seamless final product. The process is like having an assembly line for code, allowing for faster and more confident building, testing, and deployment.`]
     },
     {
         "header": "Automating Business Workflows", 

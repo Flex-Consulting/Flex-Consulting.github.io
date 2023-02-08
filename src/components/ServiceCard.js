@@ -17,7 +17,7 @@ function ServiceCard(props){
     });
     return(
         <div className="service-card-container">
-            <div className={`service-card background-${props.number}`} style={{backgroundImage: `url(${props.bkImage})`, backgroundRepeat: "round", backgroundBlendMode: `${props.bkSetting}`, backgroundColor: `${props.imageColor}`}}>
+            <div className={`service-card service-card-front background-${props.number}`} style={{backgroundImage: `url(${props.bkImage})`, backgroundRepeat: "round", backgroundBlendMode: `${props.bkSetting}`, backgroundColor: `${props.imageColor}`}}>
                 <div className="service-card-text">
                     <h4 className="service-tag">Service</h4>
                     <h2 className="service-title">{props.service}</h2>
@@ -26,28 +26,38 @@ function ServiceCard(props){
                 <div>
                     <img src={props.img} className={`service-card-image ${props.opt}`} alt={props.service}></img>
                 </div>
-                <div className="modal-container">
-                    <Button variant="primary" onClick={handleShow} className="service-modal-button">
-                        Read more
-                    </Button>
-                    <Modal show={show} onHide={handleClose} className="main-modal">
-                        <Modal.Header closeButton className="modal-header">
-                        <Modal.Title>{props.modalTitle}</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>{ text_list }</Modal.Body>
-                        <Modal.Footer>
-                        <Button variant="secondary" onClick={handleClose}>
-                            Close
-                        </Button>
-                        {/* <Button variant="primary" onClick={handleClose}>
-                            Save Changes
-                        </Button> */}
-                        </Modal.Footer>
-                    </Modal>
+            </div>
+            <div className={`service-card service-card-back`}>
+                <div className="service-card-text">
+                    <h4 className="service-tag">Service</h4>
+                    <h2 className="service-title" style={{"font-size":"xx-large"}}>{props.modalTitle}</h2>
+                    <h3 className="service-desc-serv-card">{text_list}</h3>
+                </div>
+                <div>
+                    <img src={props.img} className={`service-card-image ${props.opt}`} alt={props.service}></img>
                 </div>
             </div>
         </div>
     );
 }
 
+{/* <div className="modal-container">
+    <Button variant="primary" onClick={handleShow} className="service-modal-button">
+        Read more
+    </Button>
+    <Modal show={show} onHide={handleClose} className="main-modal">
+        <Modal.Header closeButton className="modal-header">
+        <Modal.Title>{props.modalTitle}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{ text_list }</Modal.Body>
+        <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+            Close
+        </Button>
+        // {/* <Button variant="primary" onClick={handleClose}>
+        //     Save Changes
+        // </Button> 
+        </Modal.Footer>
+    </Modal>
+</div> */}
 export default ServiceCard;
