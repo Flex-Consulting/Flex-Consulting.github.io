@@ -17,6 +17,10 @@
     font-weight: 800;
 }
 
+.App-light h1.about-header{
+    color:black;
+}
+
 .about-sec{
     margin-top: 10%;
     display: flex;

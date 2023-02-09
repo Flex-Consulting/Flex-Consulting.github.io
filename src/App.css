@@ -11,9 +11,9 @@ body{
 
 .light{
   background-color:currentColor !important;
-  background: -webkit-linear-gradient(pink, #9198e5);
-  background: -moz-linear-gradient(pink, #9198e5);
-  background: linear-gradient(pink, #9198e5);
+  background: -webkit-linear-gradient(#ffdaf3, #d3f4ff);
+  background: -moz-linear-gradient(#ffdaf3, #d3f4ff);
+  background: linear-gradient(#ffdaf3, #d3f4ff);
 }
 
 #root{
