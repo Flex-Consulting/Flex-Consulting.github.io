@@ -27,7 +27,7 @@
     align-self: center;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #main-footer h4{
@@ -60,7 +60,6 @@
     text-decoration: none !important;
     color: white;
     margin-top: 2%;
-    width: 20%;
 }
 
 #locations-container{
@@ -74,7 +73,7 @@
 .footer-sec{
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding: 1.3rem;
 }
 
 .footer-link{
@@ -84,6 +83,7 @@
 
 .footer-sub{
     /* border: 1px solid red; */
+    padding-top: 1.3rem;
     height: 12rem;
     text-align: center;
     flex: 1 1 0px;
@@ -99,11 +99,15 @@
 a{
     color: white;
     text-decoration: none;
+    transition: linear 0.1s;
 }
 
 a:hover{
+
     color: gold;
-    text-decoration: none;
+
+
+    /* text-decoration: none; */
 }
 
 

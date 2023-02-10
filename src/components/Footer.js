@@ -1,7 +1,8 @@
 import './styles/Footer.css';
 
-const Locations = {
-    "locations": ["Toronto", "Ottawa", "Guelph", "Kitchener", "Hamilton","London"]
+const FooterData = {
+    "locations": ["Toronto", "Ottawa", "Guelph", "Kitchener", "Hamilton","London"],
+    "contact": ["2185 Regional Rd 42", "Bowmanville, ON","L1C0W9"]
 };
 
 const Pages = {"Home": '/', "Services": '/services', "Our Work": '/our-work', "About": '/about'};
@@ -24,12 +25,22 @@ function Footer(){
                     </div>
                 </a>
             </div>
-            {/* Locations */}
+            {/* FooterData */}
+
+            <div className="footer-sub">
+                <h1 className='footer-mod-headers'>Contact Us</h1>
+                <div id="locations-container">
+                    <p className="footer-text-items"><a href="mailto:info@flexconsulting.ca">info@flexconsulting.ca</a></p>
+                    {FooterData["contact"].map(function(object, i){
+                        return <p className="footer-text-items" key={i}>{object}</p>;
+                    })}
+                </div>
+            </div>
 
             <div className="footer-sub">
                 <h1 className='footer-mod-headers'>Locations</h1>
                 <div id="locations-container">
-                    {Locations["locations"].map(function(object, i){
+                    {FooterData["locations"].map(function(object, i){
                         return <p className="footer-text-items" key={i}>{object}</p>;
                     })}
                 </div>
