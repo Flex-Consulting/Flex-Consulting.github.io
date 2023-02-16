@@ -3,6 +3,69 @@ import "./styles/ServiceCard.css";
 // import Modal from 'react-bootstrap/Modal';
 // import Button from 'react-bootstrap/Button';
 
+import { BsGlobe, BsCloud } from 'react-icons/bs';
+import { HiOutlineCog, HiOutlineCursorClick } from 'react-icons/hi';
+import { BiMicrochip } from 'react-icons/bi';
+import { SiSpeedtest } from 'react-icons/si';
+import { IconContext } from "react-icons";
+
+
+
+
+
+function iconName(name, alt){
+    if (name==="Globe"){
+        return(
+        <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}`}}>
+            <div>
+                <BsGlobe />
+            </div>
+        </IconContext.Provider>);
+    }
+    else if (name === "Cog"){
+        return(
+            <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}` }}>
+                <div>
+                    <HiOutlineCog />
+                </div>
+            </IconContext.Provider>);
+    }
+    else if (name === "Micro"){
+        return(
+            <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}` }}>
+                <div>
+                    <BiMicrochip />
+                </div>
+            </IconContext.Provider>);
+    }
+    else if (name === "Cloud"){
+        return(
+            <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}` }}>
+                <div>
+                    <BsCloud />
+                </div>
+            </IconContext.Provider>);
+    }
+    else if (name === "Click"){
+        return(
+            <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}` }}>
+                <div>
+                    <HiOutlineCursorClick />
+                </div>
+            </IconContext.Provider>);
+    }
+    else if (name === "Speed"){
+        return(
+            <IconContext.Provider value={{ color: "white", className: "service-card-image", title: `${alt}` }}>
+                <div>
+                    <SiSpeedtest />
+                </div>
+            </IconContext.Provider>);
+    }
+    
+}
+
+
 function ServiceCard(props){
     // const [show, setShow] = useState(false);
 
@@ -22,8 +85,8 @@ function ServiceCard(props){
                     <h2 className="service-title">{props.service}</h2>
                     <h3 className="service-desc-serv-card">{props.desc}</h3>
                 </div>
-                <div>
-                    <img src={props.img} className={`service-card-image ${props.opt}`} alt={props.service}></img>
+                <div className="serv-icon">
+                    {iconName(props.nameIcon, props.service)}
                 </div>
             </div>
             <div className={`service-card service-card-back`}>
@@ -32,8 +95,8 @@ function ServiceCard(props){
                     <h2 className="service-title" style={{"fontSize":"xx-large"}}>{props.modalTitle}</h2>
                     <h3 className="service-desc-serv-card">{text_list}</h3>
                 </div>
-                <div>
-                    <img src={props.img} className={`service-card-image ${props.opt}`} alt={props.service}></img>
+                <div className="serv-icon">
+                    {iconName(props.nameIcon)}
                 </div>
             </div>
         </div>
