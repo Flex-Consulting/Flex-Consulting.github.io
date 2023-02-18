@@ -9,6 +9,16 @@
     border: 1px solid black;
     flex: 1 0 0px;
     margin: 0;
+    // Issue with text being in top left, but not the biggest deal...
+    @supports (not (aspect-ratio: 1.1)) and (-webkit-appearance: none) {
+      height: 0;
+      padding-bottom: 25%;
+      // @media only screen and (max-width: 600px) {
+      //   height: auto;
+      //   padding-bottom: 100%;
+      //   padding: 5%;
+      // }
+    }
 }
 
 .service-name{
@@ -39,4 +49,5 @@
       width: 80%;
       margin-bottom: 5%
     }
+    
   }
