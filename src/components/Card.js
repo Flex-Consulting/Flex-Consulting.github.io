@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Card.css";
+import "./styles/Card.scss";
 
 // Took out the line below from the p tag because I thought it was distracting. We can always add
 // Something there later if we'd like.

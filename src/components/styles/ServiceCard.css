@@ -23,6 +23,12 @@
     transition: transform 0.5s;
 }
 
+@media not all and (min-resolution:.001dpcm){
+    .service-card-front, .service-card-back {
+        transform: none !important;
+    }
+}
+
 .service-card-front{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -34,6 +40,7 @@
     transform: rotateY(180deg);
     background: rgb(23,23,23);
 }
+
 
 .service-card-container:hover .service-card-front{
     transform: rotateY(180deg);
@@ -75,7 +82,7 @@
     font-size: x-large;
     font-weight: 800;
 }
-
+/* 
 .background-1{
     background: -moz-radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),-moz-linear-gradient(90deg, #171717 0%, #333333 100%);
     background: -webkit-radial-gradient(circle at 90% 10%, rgba(0, 255, 133, 0.89) 0%, rgba(0, 255, 133, 0.11) 29%, rgba(0, 255, 133, 0.01) 37%),-webkit-linear-gradient(90deg, #171717 0%, #333333 100%);
@@ -142,7 +149,7 @@
 .background-4 .service-modal-button:hover {
     border: 1px solid rgba(0, 255, 133, 0.89);
     background-color: rgba(0, 255, 133, 0.11);
-}
+} */
 
 @media only screen and (max-width: 1200px) {
     .service-card-image{
