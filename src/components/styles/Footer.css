@@ -57,8 +57,11 @@
     .footer-sec{
         padding: 0 1.3rem !important;
     }
+    .footer-sub{
+        /* padding-top: 0 !important; */
+    }
     #media{
-        justify-content: center !important;
+        padding-top: 1.3rem;
     }
 }
 
@@ -117,7 +120,6 @@
 .footer-sub{
     /* border: 1px solid red; */
     padding-top: 1.3rem;
-    height: 12rem;
     text-align: center;
     flex: 1 1 0px;
 }
@@ -162,7 +164,7 @@ a:hover{
 
 #organize-name{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-self: center;
     /* justify-content:space-evenly; */
     font-weight: bold;
@@ -170,4 +172,5 @@ a:hover{
     justify-content: space-between;
     flex: 0 0 10%;
     text-align: left;
+    align-items: center;
 }
