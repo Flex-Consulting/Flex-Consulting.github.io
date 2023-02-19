@@ -1,4 +1,5 @@
 import './styles/Footer.css';
+import { BiLinkExternal } from 'react-icons/bi';
 
 const FooterData = {
     "locations": ["Toronto", "Ottawa", "Guelph", "Kitchener", "Hamilton","London"],
@@ -21,7 +22,7 @@ function Footer(){
                 <a className='footer-sec footer-link' href="https://www.linkedin.com/company/flex-consulting-services" target="_blank" rel="noreferrer">
                     <img src="./imgs/linkedin-icon-18-256.webp" className="linkedin-footer-logo d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
                     <div id="organize-name">
-                        <p className='linkedin-footer-text'>LinkedIn</p>
+                        <p className='linkedin-footer-text'>LinkedIn </p><BiLinkExternal/>
                     </div>
                 </a>
             </div>
