@@ -41,7 +41,7 @@
       visibility: hidden;
     }
     .our-nav{
-      background-color: rgb(59, 59, 59) !important;
+      background: -webkit-linear-gradient(90deg, #b8afb7, #525252) !important;
       color:white;
       opacity: 1;
     }

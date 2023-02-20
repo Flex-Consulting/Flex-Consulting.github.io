@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import ServiceCard from "../components/ServiceCard";
 
+import IntroCard from "../components/IntroCard";
+
 const services = [
     {
         "header": "CI/CD - Continuous Integration and Continuous Delivery",
@@ -64,7 +66,10 @@ function Services(){
             <section>
                 <div className="center" style={{marginBottom: `-100%`}}>
                     <h1 className="landing-title animate__animated animate__fadeInUp">Services</h1>
-                    <div style={{marginTop: `15%`, width: `100%`}}>
+                    <div style={{marginTop: '30%'}}>
+                        <IntroCard clsName="diff-top-margin" title="Unleash Your Business's Potential with Innovative Consulting" introText="We offer a range of services that are designed to revolutionize the way businesses operate in today's digital world. At Flex Consulting Services, we're dedicated to delivering solutions that help our clients succeed. With our innovative software development services, we're ready to help you transform your business and stay ahead of the curve."/>
+                    </div>
+                    <div style={{marginTop: `0%`, width: `100%`}}>
                         {/* we can clean stuff like this up with a function */}
                         <ServiceCard service={services[0].header} desc={services[0].desc} number={1} img={services[0].img} modalTitle={services[0].modalTile} modalBody={services[0].modalBody} bkImage={services[0].bkImage} imageColor="darkgoldenrod" bkSetting="multiply" nameIcon="Globe"/>
                         <ServiceCard service={services[1].header} desc={services[1].desc} number={2} img={services[1].img} modalTitle={services[1].modalTile} modalBody={services[1].modalBody} bkImage={services[1].bkImage} imageColor="green" bkSetting="multiply" nameIcon="Cog"/>
