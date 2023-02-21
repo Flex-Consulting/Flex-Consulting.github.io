@@ -19,7 +19,7 @@ function About(){
                 <div className="center">
                     <h1 className="landing-title animate__animated animate__fadeInUp">About Us</h1>
                     <div id="video-ad-container">
-                        <ReactPlayer url="https://www.youtube.com/watch?v=NxCuqV7xR58" playing={true} controls={true} muted={true} id="our-ad"/>
+                        <ReactPlayer url="https://www.youtube.com/watch?v=H4iW-M0p0Gs" playing={true} controls={true} muted={true} id="our-ad"/>
                     </div>
                     <div className="about-sec animate__animated animate__fadeInLeft animate__delay-1s">
                         <h1 className="about-header">Our Story</h1>

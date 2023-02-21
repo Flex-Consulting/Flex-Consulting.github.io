@@ -14,7 +14,7 @@
 }
 
 .pink-card{
-    background: -webkit-linear-gradient(-45deg, white, #f8b9f1);
+    background: -webkit-linear-gradient(270deg, white, #ffd5fa);
     width: 100%;
     border-radius: 25px;
     padding: 5%;
@@ -32,9 +32,11 @@
     }
 
     .main-intro-card-container h1{
-        background-image: radial-gradient(circle at 50% 20%, hsl(323.3, 93.1%, 88.6%) 0%, hsl(335, 58.1%, 87.8%) 15%, hsl(0, 100%, 90.6%) 24%, hsl(348.8, 100%, 90.6%) 36%, hsl(0, 100%, 92%) 56%, hsl(0, 100%, 83.3%) 100%);
-        border-radius: 20%;
+        background-image: radial-gradient(circle at 50% 20%, hsl(0, 100%, 97%) 24%, hsl(349, 100%, 96%) 36%, hsl(0deg 100% 93%) 100%);
+        border-radius: 25px;
         padding: 15%;
+        width: -moz-fit-content;
         width: fit-content;
+        color: black;
     }
 }
