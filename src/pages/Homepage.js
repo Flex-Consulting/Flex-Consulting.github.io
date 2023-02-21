@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 // import OurNavbar from "./components/OurNavbar";
 import Card from "../components/Card";
 import Button from 'react-bootstrap/Button';
+import IntroCard from "../components/IntroCard";
 import {
   Link
 } from "react-router-dom";
@@ -56,6 +57,7 @@ function Homepage(){
             <img src='./imgs/pink2.webp' className="blob" alt="simple blob"></img>
             <img src='./imgs/pink3.webp' className="blob" alt="another simple blob"></img>
           </div>
+          <IntroCard title="Revolutionize Your Enterprise" introText="Flex Consulting Services is a software consulting company that provides a range of technology services aimed at improving the efficiency and productivity of businesses. With our solutions, businesses can streamline their workflows, reduce manual labor and human error, improve performance, and deliver optimal software experiences to their customers."/>
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">

@@ -89,7 +89,7 @@ function ServiceCard(props){
                     {iconName(props.nameIcon, props.service)}
                 </div>
             </div>
-            <div className={`service-card service-card-back`}>
+            <div className={`service-card service-card-back`} style={{background: `-webkit-linear-gradient(90deg, ${props.bkGradient}, rgb(23,23,23))`}}>
                 <div className="service-card-text">
                     <h4 className="service-tag">Service</h4>
                     <h2 className="service-title" style={{"fontSize":"xx-large"}}>{props.modalTitle}</h2>

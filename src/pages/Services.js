@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import ServiceCard from "../components/ServiceCard";
 
+import IntroCard from "../components/IntroCard";
+
 const services = [
     {
         "header": "CI/CD - Continuous Integration and Continuous Delivery",
@@ -64,14 +66,17 @@ function Services(){
             <section>
                 <div className="center" style={{marginBottom: `-100%`}}>
                     <h1 className="landing-title animate__animated animate__fadeInUp">Services</h1>
-                    <div style={{marginTop: `15%`, width: `100%`}}>
+                    <div style={{marginTop: '30%'}}>
+                        <IntroCard clsName="diff-top-margin" title="Unleash Your Business's Potential with Innovative Consulting" introText="We offer a range of services that are designed to revolutionize the way businesses operate in today's digital world. At Flex Consulting Services, we're dedicated to delivering solutions that help our clients succeed. With our innovative software development services, we're ready to help you transform your business and stay ahead of the curve."/>
+                    </div>
+                    <div style={{marginTop: `0%`, width: `100%`}}>
                         {/* we can clean stuff like this up with a function */}
-                        <ServiceCard service={services[0].header} desc={services[0].desc} number={1} img={services[0].img} modalTitle={services[0].modalTile} modalBody={services[0].modalBody} bkImage={services[0].bkImage} imageColor="darkgoldenrod" bkSetting="multiply" nameIcon="Globe"/>
-                        <ServiceCard service={services[1].header} desc={services[1].desc} number={2} img={services[1].img} modalTitle={services[1].modalTile} modalBody={services[1].modalBody} bkImage={services[1].bkImage} imageColor="green" bkSetting="multiply" nameIcon="Cog"/>
-                        <ServiceCard service={services[2].header} desc={services[2].desc} number={3} img={services[2].img} modalTitle={services[2].modalTile} modalBody={services[2].modalBody} bkImage={services[2].bkImage} imageColor="darkcyan" bkSetting="multiply" nameIcon="Micro"/>
-                        <ServiceCard service={services[3].header} desc={services[3].desc} number={4} img={services[3].img} modalTitle={services[3].modalTile} modalBody={services[3].modalBody} bkImage={services[3].bkImage} imageColor="darkgray" bkSetting="multiply" nameIcon="Cloud"/>
-                        <ServiceCard service={services[4].header} desc={services[4].desc} number={5} img={services[4].img} modalTitle={services[4].modalTile} modalBody={services[4].modalBody} bkImage={services[4].bkImage} imageColor="darkgray" bkSetting="multiply" nameIcon="Click"/>
-                        <ServiceCard service={services[5].header} desc={services[5].desc} number={6} img={services[5].img} modalTitle={services[5].modalTile} modalBody={services[5].modalBody} bkImage={services[5].bkImage} imageColor= "deeppink" bkSetting="darken" nameIcon="Speed"/>
+                        <ServiceCard service={services[0].header} desc={services[0].desc} number={1} img={services[0].img} modalTitle={services[0].modalTile} modalBody={services[0].modalBody} bkImage={services[0].bkImage} bkGradient='#462500' imageColor="darkgoldenrod" bkSetting="multiply" nameIcon="Globe"/>
+                        <ServiceCard service={services[1].header} desc={services[1].desc} number={2} img={services[1].img} modalTitle={services[1].modalTile} modalBody={services[1].modalBody} bkImage={services[1].bkImage} bkGradient='#003700' imageColor="green" bkSetting="multiply" nameIcon="Cog"/>
+                        <ServiceCard service={services[2].header} desc={services[2].desc} number={3} img={services[2].img} modalTitle={services[2].modalTile} modalBody={services[2].modalBody} bkImage={services[2].bkImage} bkGradient='#004a4a' imageColor="darkcyan" bkSetting="multiply" nameIcon="Micro"/>
+                        <ServiceCard service={services[3].header} desc={services[3].desc} number={4} img={services[3].img} modalTitle={services[3].modalTile} modalBody={services[3].modalBody} bkImage={services[3].bkImage} bkGradient='#2e3735' imageColor="darkgray" bkSetting="multiply" nameIcon="Cloud"/>
+                        <ServiceCard service={services[4].header} desc={services[4].desc} number={5} img={services[4].img} modalTitle={services[4].modalTile} modalBody={services[4].modalBody} bkImage={services[4].bkImage} bkGradient='#28343d' imageColor="darkgray" bkSetting="multiply" nameIcon="Click"/>
+                        <ServiceCard service={services[5].header} desc={services[5].desc} number={6} img={services[5].img} modalTitle={services[5].modalTile} modalBody={services[5].modalBody} bkImage={services[5].bkImage} bkGradient='#3a0421' imageColor= "deeppink" bkSetting="darken" nameIcon="Speed"/>
                     </div>
                 </div>
             </section>

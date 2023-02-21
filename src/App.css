@@ -24,6 +24,7 @@ html{
   overflow-x: clip;
 }
 
+
 .navbar-light .router-link{
   color: black !important;
 }
