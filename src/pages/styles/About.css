@@ -21,6 +21,14 @@
     color:black;
 }
 
+.App-dark .center p{
+    color: white;
+}
+
+.App-dark .center h1{
+    color:white !important;
+}
+
 .about-sec{
     margin-top: 10%;
     display: flex;

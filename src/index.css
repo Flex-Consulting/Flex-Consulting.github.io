@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black !important;
+  /* background-color: black !important; */
 }
 
 code {
@@ -64,11 +64,11 @@ code {
 }
 
 .landing-title{
-  font-size:350%;
-  background: -webkit-linear-gradient(261deg, #5c4e60, #0D0D0D);
+  font-size:3.75rem;
+  /* background: -webkit-linear-gradient(261deg, #5c4e60, #0D0D0D);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color:transparent; 
+  -webkit-text-fill-color:transparent;  */
   font-weight: bold;
 }
 
@@ -116,7 +116,7 @@ code {
   width: 1024px;
   left: calc(50% - 530px);
 }
-body{
+/* body{
   background-image:
   radial-gradient(circle at 50% 20%, 
   hsl(280deg 10% 71%) 0%,
@@ -126,9 +126,8 @@ body{
   hsl(339deg 0% 0%) 56%,
   hsl(0deg 0% 0%) 100%
 );
-  /* radial-gradient(circle at 75% 33%, rgba(52, 239, 247, 1) 0%, rgba(238, 130, 208, 0) 40%); */
-  /* background-size: 61.1%; */
+
   background-repeat: no-repeat;
   background-position:center;
   background-position-y:-15rem;
-}
+} */

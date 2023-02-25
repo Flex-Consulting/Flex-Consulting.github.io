@@ -49,14 +49,14 @@ function Homepage(){
           <section id="landing">
             <div className="center">
               <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
-              <h1 className="landing-title animate__animated animate__slideInDown">Flexible Solutions, </h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s" id="bottom-title">Exceptional Quality.</h1>
+              <h1 id="color-title-header" className="landing-title animate__animated animate__slideInDown">Flexible Solutions,</h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s" id="bottom-title">Exceptional Quality.</h1>
               <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><ButtonMailto label="Contact Us" mailto="mailto:info@flexconsulting.ca"/></Button>
             </div>
           </section>
-          <div id="blob-container">
+          {/* <div id="blob-container">
             <img src='./imgs/pink2.webp' className="blob" alt="simple blob"></img>
             <img src='./imgs/pink3.webp' className="blob" alt="another simple blob"></img>
-          </div>
+          </div> */}
           <IntroCard title="Revolutionize Your Enterprise" introText="Flex Consulting Services is a software consulting company that provides a range of technology services aimed at improving the efficiency and productivity of businesses. With our solutions, businesses can streamline their workflows, reduce manual labor and human error, improve performance, and deliver optimal software experiences to their customers."/>
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
