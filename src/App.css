@@ -10,10 +10,10 @@ body{
 }
 
 .light{
-  background-color:currentColor !important;
-  background: -webkit-linear-gradient(#ffdaf3, #d3f4ff);
+  background-color:white !important;
+  /* background: -webkit-linear-gradient(#ffdaf3, #d3f4ff);
   background: -moz-linear-gradient(#ffdaf3, #d3f4ff);
-  background: linear-gradient(#ffdaf3, #d3f4ff);
+  background: linear-gradient(#ffdaf3, #d3f4ff); */
 }
 
 #root{
@@ -46,7 +46,7 @@ html{
   }
   
   #darkModeButton{
-    color: white !important;
+    color: red !important;
   }
   .router-link-dark:hover{
     color: lightgrey !important;

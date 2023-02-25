@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <App />
-    <img src='./imgs/npink.webp' className="background-blob" alt="another big blob"></img>
   </BrowserRouter>
 );
 
