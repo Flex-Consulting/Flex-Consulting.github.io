@@ -1,5 +1,4 @@
 body{
-  background-color: black;
   overflow-x: hidden;
   max-width: 100%;
   text-rendering:optimizeLegibility !important;
@@ -47,7 +46,7 @@ html{
   }
   
   #darkModeButton{
-    color: red !important;
+    color: white !important;
   }
   .router-link-dark:hover{
     color: lightgrey !important;

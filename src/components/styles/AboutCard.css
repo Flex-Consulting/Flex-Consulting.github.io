@@ -6,9 +6,9 @@
 
 
 .right-card{
-    background: -webkit-linear-gradient(-45deg, white, #f8b9f1);
+    background: -webkit-linear-gradient(-45deg, rgb(146, 84, 222), rgb(89, 126, 247));
 }
 
 .left-card{
-    background: -webkit-linear-gradient(180deg, white, #f8b9f1);
+    background: -webkit-linear-gradient(0deg, rgb(180, 84, 222), rgb(89, 126, 247));
 }

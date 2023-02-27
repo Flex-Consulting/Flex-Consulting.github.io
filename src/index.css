@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: black !important; */
+  background-color: black !important;
 }
 
 code {
@@ -21,38 +21,9 @@ code {
   align-items: center;
   align-self: center;
   flex-direction: column;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
-@media only screen and (max-width: 1400px) {
-  .center{
-    margin-top: 25%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .center{
-    margin-top: 30%;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .center{
-    margin-top: 40%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .center{
-    margin-top: 55%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .center{
-    margin-top: 30%;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   .landing-title{
