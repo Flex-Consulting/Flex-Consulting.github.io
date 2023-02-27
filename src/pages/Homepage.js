@@ -54,6 +54,7 @@ function Homepage(){
             </div>
           </section>
           {/* <div id="blob-container">
+          {/* <div id="blob-container">
             <img src='./imgs/pink2.webp' className="blob" alt="simple blob"></img>
             <img src='./imgs/pink3.webp' className="blob" alt="another simple blob"></img>
           </div> */}
