@@ -46,19 +46,24 @@ const ButtonMailto = ({ mailto, label }) => {
 function Homepage(){
     return(
         <Container>
-          <section id="landing">
-            <div className="center">
-              <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Services</p>
+          <section id="landing" style={{textAlign: "center"}}>
+            <div className="center" style={{position:"relative", zIndex:"9999999999"}}>
+              <video autoplay="true" muted loop id="video" width="60%" style={{backgroundColor: "rgba(0,0,0,1) !important"}}>
+                <source src="https://player.vimeo.com/external/403626863.hd.mp4?s=88038518a9f230d6df9e1c6767c3c250091f7313&profile_id=173&oauth2_token_id=57447761" type="video/mp4" />
+              </video>
+              <div  style={{position: "absolute"}}>
+              <p className="sub-title animate__animated animate__fadeIn  animate__delay-2s">Welcome to Flex Consulting Solutions Inc.</p>
               <h1 className="color-title-header landing-title animate__animated animate__slideInDown">Flexible Solutions,</h1><h1 className="landing-title animate__animated animate__fadeIn animate__delay-1s color-title-header" id="bottom-title">Exceptional Quality.</h1>
               <Button variant="outline-light" className="apple_button animate__animated animate__fadeIn animate__delay-3s"><ButtonMailto label="Contact Us" mailto="mailto:info@flexconsulting.ca"/></Button>
-            </div>
+              </div>
+             </div>
           </section>
           {/* <div id="blob-container">
           {/* <div id="blob-container">
             <img src='./imgs/pink2.webp' className="blob" alt="simple blob"></img>
             <img src='./imgs/pink3.webp' className="blob" alt="another simple blob"></img>
           </div> */}
-          <IntroCard title="Revolutionize Your Enterprise" introText="Flex Consulting Services is a software consulting company that provides a range of technology services aimed at improving the efficiency and productivity of businesses. With our solutions, businesses can streamline their workflows, reduce manual labor and human error, improve performance, and deliver optimal software experiences to their customers."/>
+          <IntroCard title="Revolutionize Your Enterprise" introText="Flex Consulting Solutions Inc. is a software consulting company that provides a range of technology services aimed at improving the efficiency and productivity of businesses. With our solutions, businesses can streamline their workflows, reduce manual labor and human error, improve performance, and deliver optimal software experiences to their customers."/>
           <section id="services">
             <h1 className="section-header" style={{textAlign: "left"}}>Services</h1>
             <div id="services-container">

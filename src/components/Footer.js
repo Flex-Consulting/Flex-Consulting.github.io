@@ -16,7 +16,7 @@ function Footer(){
                 <div className="footer-sec">
                     <img src="./imgs/flex-footer.webp" className="flex-footer-logo d-inline-block align-top image-space" alt="Flex Consulting Logo"/>
                     <div id="organize-name">
-                        <p>Flex<br/>Consulting<br/>Services</p>
+                        <p>Flex<br/>Consulting<br/>Solutions Inc.</p>
                     </div>
                 </div>
                 <a className='footer-sec footer-link' href="https://www.linkedin.com/company/flex-consulting-services" target="_blank" rel="noreferrer">

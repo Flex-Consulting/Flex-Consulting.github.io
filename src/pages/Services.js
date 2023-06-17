@@ -66,8 +66,8 @@ function Services(){
             <section>
                 <div className="center" style={{marginBottom: `-100%`}}>
                     <h1 className="landing-title animate__animated animate__fadeInUp">Services</h1>
-                    <div style={{marginTop: '30%'}}>
-                        <IntroCard clsName="diff-top-margin" title="Unleash Your Business's Potential with Innovative Consulting" introText="We offer a range of services that are designed to revolutionize the way businesses operate in today's digital world. At Flex Consulting Services, we're dedicated to delivering solutions that help our clients succeed. With our innovative software development services, we're ready to help you transform your business and stay ahead of the curve."/>
+                    <div style={{marginTop: '30%'}} className="animate__animated animate__fadeInUp">
+                        <IntroCard clsName="diff-top-margin" title="Unleash Your Business's Potential with Innovative Consulting" introText="We offer a range of services that are designed to revolutionize the way businesses operate in today's digital world. At Flex Consulting Solutions Inc., we're dedicated to delivering solutions that help our clients succeed. With our innovative software development services, we're ready to help you transform your business and stay ahead of the curve."/>
                     </div>
                     <div style={{marginTop: `0%`, width: `100%`}}>
                         {/* we can clean stuff like this up with a function */}

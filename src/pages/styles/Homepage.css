@@ -122,3 +122,17 @@ background-image: linear-gradient(45deg, rgb(146, 84, 222), rgb(89, 126, 247));
   width:500px;
   height:500px;
 }
+
+video {
+  object-fit: cover;
+  width: 80vw;
+  height: 50vh;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
