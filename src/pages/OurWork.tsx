@@ -6,6 +6,7 @@ export default function OurWork() {
     {
       title: 'Public Cloud Management',
       client: 'Global Burden of Animal Diseases',
+      client_url: 'https://gbadske.org',
       category: 'Cloud Architecture',
       description: 'Architected a scalable cloud infrastructure for APIs, web applications, and data modeling.',
       results: [
@@ -20,6 +21,7 @@ export default function OurWork() {
     {
       title: 'Website Redesign & SEO Improvements',
       client: 'Going Ductless Ltd.',
+      client_url: 'https://goingductless.ca',
       category: 'Website Development',
       description: 'Redesigned and optimized the company website to improve user experience and search engine rankings.',
       results: [
@@ -105,7 +107,13 @@ export default function OurWork() {
                       <span className="px-3 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full">
                         {project.category}
                       </span>
-                      <span className="text-slate-400 text-sm">{project.client}</span>
+                      <span className="text-slate-400 text-sm">
+                        {project.client_url ? (
+                          <a href={project.client_url}>{project.client}</a>
+                        ) : (
+                          project.client
+                        )}
+                      </span>
                     </div>
 
                     <h2 className="text-3xl font-bold text-slate-900 mb-4">
