@@ -9,22 +9,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://flexconsulting.ca/services</loc>
+    <loc>https://flexconsulting.ca/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://flexconsulting.ca/our-work</loc>
+    <loc>https://flexconsulting.ca/our-work/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://flexconsulting.ca/about</loc>
+    <loc>https://flexconsulting.ca/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flexconsulting.ca/contact</loc>
+    <loc>https://flexconsulting.ca/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
